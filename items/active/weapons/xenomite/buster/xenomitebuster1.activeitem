@@ -1,0 +1,85 @@
+{
+  "itemName": "xenomitebuster1",
+  "price": 500,
+  "maxStack": 1,
+  "rarity": "uncommon",
+  "description": "Fires energy bullets.\n^#64ff64;-Can be charged!-^reset;",
+  "shortdescription": "Xenomite Buster I",
+  "tooltipKind": "mor_xenomite",
+  "category": "uniqueWeapon",
+  "twoHanded": false,
+  "itemTags": [ "weapon", "ranged", "staff", "energy", "upgradeableWeapon", "armcannon", "xenomite" ],
+  //This was a magic-type weapon in my Terraria mod (https://steamcommunity.com/sharedfiles/filedetails/?id=2828910779), but thinking things over, ideally it'd benefit from ranged OR staff bonuses, so it can be used by either "class".
+  "level": 2,
+
+  "inventoryIcon": "xenomitebustericon.png",
+
+  "animation": "xenomitebuster.animation",
+  "animationParts": {
+    "gun": "xenomitebuster.png",
+    "gunfullbright": "xenomitebusterfullbright.png"
+  },
+  "animationCustom": {},
+  "muzzleOffset": [ 1, 0.1 ],
+
+  "handGrip": "wrap",
+
+  "scripts": [ "/items/active/weapons/ranged/gun.lua" ],
+
+  "elementalType": "xenomite",
+
+  "primaryAbilityType": "chargefire",
+  "primaryAbility": {
+    "chargeLevels": [
+      {
+        "time": 0,
+        "energyCost": 5,
+        "cooldown": 0,
+        "projectileType": "xenomitebusterlv1shot",
+        "projectileCount": 1,
+        "projectileParameters": {},
+        "inaccuracy": 0,
+        "baseDamage": 2.66,
+        //damage altered by weapon level, ends up being 4 as it should be
+        "fireSound": "busterlv1shot"
+      },
+      {
+        "time": 0.5,
+        "energyCost": 10,
+        "cooldown": 0.66,
+        "projectileType": "xenomitebusterlv2shot",
+        "projectileCount": 1,
+        "projectileParameters": {},
+        "inaccuracy": 0,
+        "baseDamage": 5.33,
+        "fireSound": "busterlv2shot"
+      },
+      {
+        "time": 1.5,
+        "energyCost": 15,
+        "cooldown": 0.33,
+        "projectileType": "xenomitebusterlv3shot",
+        "projectileCount": 1,
+        "projectileParameters": {},
+        "inaccuracy": 0,
+        "baseDamage": 8,
+        "fireSound": "busterlv3shot"
+      },
+      {
+        "time": 3,
+        "energyCost": 20,
+        "cooldown": 0.33,
+        "projectileType": "xenomitebusterlv4shotlauncher",
+        "projectileCount": 1,
+        "projectileParameters": {},
+        "inaccuracy": 0,
+        "baseDamage": 8,
+        "fireSound": "busterlv4shot"
+      }
+    ]
+  },
+
+  "builder": "/items/buildscripts/buildunrandweapon.lua",
+
+  "learnBlueprintsOnPickup": [ "xenomitebuster1", "xenomitebuster2" ]
+}

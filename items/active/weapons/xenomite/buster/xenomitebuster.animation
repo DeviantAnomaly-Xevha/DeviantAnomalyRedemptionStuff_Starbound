@@ -1,0 +1,194 @@
+{
+  "lights": {
+    "lv2chargeglow": {
+      "active": false,
+      "position": [ 0, 0 ],
+      "color": [ 9, 72, 71 ],
+      "transformationGroups": [ "weapon" ]
+    },
+    "lv3chargeglow": {
+      "active": false,
+      "position": [ 0, 0 ],
+      "color": [ 21, 105, 59 ],
+      "transformationGroups": [ "weapon" ]
+    },
+    "lv4chargeglow": {
+      "active": false,
+      "position": [ 0, 0 ],
+      "color": [ 36, 129, 39 ],
+      "transformationGroups": [ "weapon" ]
+    },
+    "firingglow": {
+      "active": false,
+      "position": [ 0, 0 ],
+      "color": [ 0, 47, 65 ],
+      "transformationGroups": [ "weapon" ]
+    }
+  },
+  "animatedParts": {
+    "stateTypes": {
+      "firing": {
+        "default": "off",
+        "states": {
+          "off": {
+            "properties": {
+              "lightsOff": [ "lv2chargeglow", "lv3chargeglow", "lv4chargeglow", "firingglow" ]
+            }
+          },
+          "charge": {
+            "frames": 1,
+            "cycle": 0.5,
+            "properties,": {
+              "lightsOff": [ "lv2chargeglow", "lv3chargeglow", "lv4chargeglow", "firingglow" ]
+            },
+            "mode": "transition",
+            "transition": "lv2charge"
+          },
+          "lv2charge": {
+            "frames": 32,
+            "cycle": 1.0,
+            "properties": {
+              "immediateSound": "/sfx/xenomiteweapons/xenomiteweaponlv2charge.ogg",
+              "lightsOff": [ "lv3chargeglow", "lv4chargeglow", "firingglow" ],
+              "lightsOn": [ "lv2chargeglow" ]
+            },
+            "mode": "transition",
+            "transition": "lv3charge"
+          },
+          "lv3charge": {
+            "frames": 48,
+            "cycle": 1.5,
+            "properties": {
+              "immediateSound": "/sfx/xenomiteweapons/xenomiteweaponlv3charge.ogg",
+              "lightsOff": [ "lv2chargeglow", "lv4chargeglow", "firingglow" ],
+              "lightsOn": [ "lv3chargeglow" ]
+            },
+            "mode": "transition",
+            "transition": "fullcharge"
+          },
+          "fullcharge": {
+            "frames": 8,
+            "cycle": 0.25,
+            "properties": {
+              "immediateSound": "/sfx/xenomiteweapons/xenomiteweaponlv4charge.ogg",
+              "lightsOff": [ "lv2chargeglow", "lv3chargeglow", "firingglow" ],
+              "lightsOn": [ "lv4chargeglow" ]
+            },
+            "mode": "loop"
+          },
+          "fire": {
+            "frames": 6,
+            "cycle": 0.2,
+            "properties,": {
+              "lightsOff": [ "lv2chargeglow", "lv3chargeglow", "lv4chargeglow" ],
+              "lightsOn": [ "firingglow" ]
+            },
+            "mode": "transition",
+            "transition": "off"
+          }
+        }
+      }
+    },
+
+    "parts": {
+      "gun": {
+        "properties": {
+          "centered": true,
+          "offset": [ -0.3, 0.05 ],
+          "transformationGroups": [ "weapon" ]
+        },
+
+        "partStates": {
+          "firing": {
+            "off": {
+              "properties": {
+                "image": "<partImage>:empty"
+              }
+            },
+            "charge": {
+              "properties": {
+                "image": "<partImage>:empty"
+              }
+            },
+            "lv2charge": {
+              "properties": {
+                "image": "<partImage>:lv2charge.<frame>"
+              }
+            },
+            "lv3charge": {
+              "properties": {
+                "image": "<partImage>:lv3charge.<frame>"
+              }
+            },
+            "fullcharge": {
+              "properties": {
+                "image": "<partImage>:fullcharge.<frame>"
+              }
+            },
+            "fire": {
+              "properties": {
+                "image": "<partImage>:fire.<frame>"
+              }
+            }
+          }
+        }
+      },
+      "gunfullbright": {
+        "properties": {
+          "centered": true,
+          "offset": [ -0.3, 0.05 ],
+          "transformationGroups": [ "weapon" ],
+          "zLevel": 1,
+          "fullbright": true
+        },
+
+        "partStates": {
+          "firing": {
+            "off": {
+              "properties": {
+                "image": "<partImage>:empty"
+              }
+            },
+            "charge": {
+              "properties": {
+                "image": "<partImage>:empty"
+              }
+            },
+            "lv2charge": {
+              "properties": {
+                "image": "<partImage>:lv2charge.<frame>"
+              }
+            },
+            "lv3charge": {
+              "properties": {
+                "image": "<partImage>:lv3charge.<frame>"
+              }
+            },
+            "fullcharge": {
+              "properties": {
+                "image": "<partImage>:fullcharge.<frame>"
+              }
+            },
+            "fire": {
+              "properties": {
+                "image": "<partImage>:fire.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "transformationGroups": {
+    "weapon": {},
+    "muzzle": {}
+  },
+
+  "sounds": {
+    "busterlv1shot": [ "/sfx/xenomiteweapons/xenomitebuster/busterlv1shot.ogg" ],
+    "busterlv2shot": [ "/sfx/xenomiteweapons/xenomitebuster/busterlv2shot.ogg" ],
+    "busterlv3shot": [ "/sfx/xenomiteweapons/xenomitebuster/busterlv3shot.ogg" ],
+    "busterlv4shot": [ "/sfx/xenomiteweapons/xenomitebuster/busterlv4shot.ogg" ]
+  }
+}

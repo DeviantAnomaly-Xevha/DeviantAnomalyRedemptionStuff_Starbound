@@ -1,0 +1,79 @@
+{
+  "itemName": "mor_infectedwatergun",
+  "price": 500,
+  "inventoryIcon": "mor_infectedwatergun.png",
+  "maxStack": 1,
+  "rarity": "uncommon",
+  "description": "This couldn't possibly go wrong.",
+  "shortdescription": "Infected Water Gun",
+  "level": 1,
+  "category": "mor_aBadIdea",
+  "itemTags": [ "weapon", "ranged", "machinepistol", "radioactive", "upgradeableWeapon" ],
+  "tooltipKind": "gun",
+  "twoHanded": false,
+  "animation": "/items/active/weapons/ranged/gun.animation",
+  "animationParts": {
+    "butt": "",
+    "middle": "mor_infectedwatergun.png",
+    "barrel": "",
+    "muzzleFlash": ""
+  },
+  "animationCustom": {
+    "sounds": { "fire": [ "/sfx/gun/pumpgun_blast2.ogg" ] },
+    "lights": { "muzzleFlash": { "color": [ 80, 196, 31 ] } }
+  },
+
+  "baseOffset": [ 0.65, 0.45 ],
+  "muzzleOffset": [ 1.5, 0.125 ],
+
+  "scripts": [ "/items/active/weapons/ranged/gun.lua" ],
+
+  "elementalType": "xenomite",
+
+  "primaryAbility": {
+    "scripts": [ "/items/active/weapons/ranged/gunfire.lua" ],
+    "class": "GunFire",
+    "fireTime": 0.156,
+    "baseDps": 1,
+    "energyUsage": 5,
+    "fireType": "auto",
+    "inaccuracy": 0.02,
+    "projectileCount": 1,
+    "projectileType": "mor_squirtinfectedwater",
+    "projectileParameters": {
+      "speed": 32
+    },
+    "stances": {
+      "idle": {
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "twoHanded": true,
+
+        "allowRotate": true,
+        "allowFlip": true
+      },
+      "fire": {
+        "duration": 0,
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "twoHanded": true,
+
+        "allowRotate": false,
+        "allowFlip": false
+      },
+      "cooldown": {
+        "duration": 0.0,
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "twoHanded": true,
+
+        "allowRotate": false,
+        "allowFlip": false
+      }
+    }
+  },
+
+  "builder": "/items/buildscripts/buildunrandweapon.lua",
+
+  "learnBlueprintsOnPickup": [ "mor_infectedwatergun", "mor_nuclearwarhead" ]
+}

@@ -1,0 +1,26 @@
+{
+  "itemName": "mor_divinghelmet",
+  "price": 200,
+  "inventoryIcon": "headicon.png",
+  "maxStack": 1,
+  "rarity": "Uncommon",
+  "category": "headwear",
+  "description": "Greatly extends underwater breathing",
+  "shortdescription": "Diving Helmet",
+  "tooltipKind": "armor",
+
+  "maleFrames": "head.png",
+  "femaleFrames": "head.png",
+  "mask": "mask.png",
+
+  "statusEffects": [
+    {
+      "stat": "protection",
+      "amount": 1
+    },
+    {
+      "stat": "breathDepletionRate",
+      "effectiveMultiplier": 0.25
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "frameGrid" : {
+    "size" : [10, 10],
+    "dimensions" : [48, 5],
+    "names": [
+      [ "empty", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+      [ "lv2charge.1", "lv2charge.2", "lv2charge.3", "lv2charge.4", "lv2charge.5", "lv2charge.6", "lv2charge.7", "lv2charge.8", "lv2charge.9", "lv2charge.10", "lv2charge.11", "lv2charge.12", "lv2charge.13", "lv2charge.14", "lv2charge.15", "lv2charge.16", "lv2charge.17", "lv2charge.18", "lv2charge.19", "lv2charge.20", "lv2charge.21", "lv2charge.22", "lv2charge.23", "lv2charge.24", "lv2charge.25", "lv2charge.26", "lv2charge.27", "lv2charge.28", "lv2charge.29", "lv2charge.30", "lv2charge.31", "lv2charge.32", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+      [ "lv3charge.1", "lv3charge.2", "lv3charge.3", "lv3charge.4", "lv3charge.5", "lv3charge.6", "lv3charge.7", "lv3charge.8", "lv3charge.9", "lv3charge.10", "lv3charge.11", "lv3charge.12", "lv3charge.13", "lv3charge.14", "lv3charge.15", "lv3charge.16", "lv3charge.17", "lv3charge.18", "lv3charge.19", "lv3charge.20", "lv3charge.21", "lv3charge.22", "lv3charge.23", "lv3charge.24", "lv3charge.25", "lv3charge.26", "lv3charge.27", "lv3charge.28", "lv3charge.29", "lv3charge.30", "lv3charge.31", "lv3charge.32", "lv3charge.33", "lv3charge.34", "lv3charge.35", "lv3charge.36", "lv3charge.37", "lv3charge.38", "lv3charge.39", "lv3charge.40", "lv3charge.41", "lv3charge.42", "lv3charge.43", "lv3charge.44", "lv3charge.45", "lv3charge.46", "lv3charge.47", "lv3charge.48" ],
+      [ "fullcharge.1", "fullcharge.2", "fullcharge.3", "fullcharge.4", "fullcharge.5", "fullcharge.6", "fullcharge.7", "fullcharge.8", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ],
+      [ "fire.1", "fire.2", "fire.3", "fire.4", "fire.5", "fire.6", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+    ]
+  }
+}

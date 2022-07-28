@@ -1,0 +1,19 @@
+{
+  "itemName": "spheretech_xa",
+  "price": 0,
+  "level": 1,
+  "maxStack": 1,
+  "rarity": "Legendary",
+  "category": "tech",
+  "description": "Unlocks Xenomite-type variants of basic sphere techs.\n^#ff6464;Consumed on click.^reset;",
+  "shortdescription": "Sphere Tech (^#c0f863;XA^reset;)",
+  "twoHanded": true,
+  "inventoryIcon": "spheretech_xa.png",
+  "scripts": [ "spheretech_xa.lua" ],
+  "animation": "spheretech_xa.animation",
+  "animationCustom": {},
+  "fireTime": 2.0,
+  "fireOffset": [ 0.0, 0.0 ],
+
+  "tech_to_unlock": "distortionsphere_xa"
+}
