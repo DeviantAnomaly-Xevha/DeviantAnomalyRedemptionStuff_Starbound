@@ -1,0 +1,28 @@
+{
+  "materialId": 444,
+  "materialName": "mor_irradiatedsilttile",
+  "particleColor": [ 209, 204, 135, 255 ],
+  "itemDrop": "mor_irradiatedsilt",
+  "description": "It's Silt. It's very silty.",
+  "shortdescription": "Irradiated Loose Silt",
+  "glitchDescription": "Uncomfortable. It is difficult to keep silt from seeping into my components.",
+  "floranDescription": "Silt. It's so dussty.",
+  "novakidDescription": "Big ol' pile of dusty silt.",
+  "footstepSound": "/sfx/blocks/footstep_sand.ogg",
+  "falling": true,
+  "cascading": true,
+  "health": 1,
+  "category": "materials",
+
+  "statusEffects": [ "mor_radiation" ],
+
+  "renderTemplate": "/tiles/classicmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "mor_irradiatedsilttile.png",
+    "variants": 5,
+    "lightTransparent": false,
+    "occludesBelow": true,
+    "multiColored": true,
+    "zLevel": 430
+  }
+}

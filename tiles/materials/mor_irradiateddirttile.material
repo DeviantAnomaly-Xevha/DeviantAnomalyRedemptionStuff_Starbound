@@ -1,0 +1,28 @@
+{
+  "materialId": 437,
+  "materialName": "mor_irradiateddirttile",
+  "particleColor": [ 103, 87, 76, 255 ],
+  "itemDrop": "mor_irradiateddirt",
+  "description": "Dirty looking dirt.",
+  "shortdescription": "Irradiated Dirt",
+  "glitchDescription": "Indifferent. This is basic soil.",
+  "floranDescription": "Filthy dirt!",
+  "novakidDescription": "Dirty lookin' dirt.",
+  "footstepSound": "/sfx/blocks/footstep_dirt.ogg",
+  "tillableMod": 32,
+  "soil": true,
+  "health": 2,
+  "category": "materials",
+
+  "statusEffects": [ "mor_radiation" ],
+
+  "renderTemplate": "/tiles/classicmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "mor_irradiateddirttile.png",
+    "variants": 5,
+    "lightTransparent": false,
+    "occludesBelow": true,
+    "multiColored": true,
+    "zLevel": 1920
+  }
+}

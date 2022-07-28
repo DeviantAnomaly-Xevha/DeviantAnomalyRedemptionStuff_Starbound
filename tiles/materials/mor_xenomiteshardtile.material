@@ -1,0 +1,25 @@
+{
+  "materialId": 436,
+  "materialName": "mor_xenomiteshardtile",
+  "particleColor": [ 54, 193, 59, 255 ],
+  "itemDrop": "mor_xenomiteshard",
+  "description": "A shimmering block of xenomite crystals.",
+  "shortdescription": "Xenomite Shard",
+  "glitchDescription": "Calm. This crystal block has a soothing appearance.",
+  "floranDescription": "Ssshiny block made from crysstalss.",
+  "novakidDescription": "The crystals in this block are real purdy.",
+  "footstepSound": "/sfx/blocks/footstep_crystal.ogg",
+  "health": 8,
+  "category": "materials",
+  "statusEffects": [ "mor_greenrashesdebuff2" ],
+
+  "renderTemplate": "/tiles/classicmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "mor_xenomiteshardtile.png",
+    "variants": 5,
+    "lightTransparent": false,
+    "multiColored": false,
+    "occludesBelow": true,
+    "zLevel": 1560
+  }
+}

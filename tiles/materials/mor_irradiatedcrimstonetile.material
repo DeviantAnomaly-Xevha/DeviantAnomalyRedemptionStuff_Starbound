@@ -1,0 +1,26 @@
+{
+  "materialId": 442,
+  "materialName": "mor_irradiatedcrimstonetile",
+  "particleColor": [ 113, 113, 113, 255 ],
+  "itemDrop": "mor_irradiatedcrimstone",
+  "shortdescription": "Irradiated Crimstone",
+  "description": "Hard cobblestones, smooth to the touch.",
+  "glitchDescription": "Facinated. These cobblestones are naturally smooth.",
+  "floranDescription": "Ssmooth cobblessstone rockss.",
+  "novakidDescription": "Ain't uncommon to run across cobblestone rocks like this.",
+  "footstepSound": "/sfx/blocks/footstep_stone3.ogg",
+  "health": 4,
+  "category": "materials",
+
+  "statusEffects": [ "mor_radiation" ],
+
+  "renderTemplate": "/tiles/classicmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "mor_irradiatedcrimstonetile.png",
+    "variants": 5,
+    "lightTransparent": false,
+    "multiColored": true,
+    "occludesBelow": true,
+    "zLevel": 1640
+  }
+}

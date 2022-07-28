@@ -1,0 +1,27 @@
+{
+  "materialId": 443,
+  "materialName": "mor_irradiatedsandtile",
+  "particleColor": [ 200, 183, 120, 255 ],
+  "itemDrop": "mor_irradiatedsand",
+  "description": "Soft and warm sand.",
+  "shortdescription": "Irradiated Sand",
+  "glitchDescription": "Curious. This sand is so fine it seems smooth to touch.",
+  "floranDescription": "Dussty sand.",
+  "novakidDescription": "Some mighty soft lookin' sand.",
+  "footstepSound": "/sfx/blocks/footstep_sand2.ogg",
+  "health": 1,
+  "category": "materials",
+  "soil": true,
+
+  "statusEffects": [ "mor_radiation" ],
+
+  "renderTemplate": "/tiles/classicmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "mor_irradiatedsandtile.png",
+    "variants": 5,
+    "lightTransparent": false,
+    "occludesBelow": true,
+    "multiColored": true,
+    "zLevel": 1830
+  }
+}

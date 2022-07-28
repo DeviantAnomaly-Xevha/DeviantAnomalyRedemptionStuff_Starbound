@@ -1,0 +1,6 @@
+{
+	"name": "mor_xenomiteanomalytraits",
+	"effectConfig": {},
+	"defaultDuration": 5,
+	"scripts": [ "mor_xenomiteanomalytraits.lua" ] //When asked, Hallam said Xenomite would be weak to "rock or metal".
+}

@@ -1,0 +1,28 @@
+{
+  "materialId": 446,
+  "materialName": "mor_irradiatedsnowtile",
+  "particleColor": [ 245, 249, 250, 255 ],
+  "itemDrop": "mor_irradiatedsnow",
+  "shortdescription": "Snow",
+  "description": "Soft and fluffy snow.",
+  "glitchDescription": "Enchanted. This snow looks freshly fallen.",
+  "floranDescription": "Cold ssnowy sstuff.",
+  "novakidDescription": "Buncha fresh snow.",
+  "footstepSound": "/sfx/blocks/footstep_snow.ogg",
+  "health": 1,
+  "category": "materials",
+  "soil": true,
+  "damageTable": "/tiles/flammableDamage.config",
+
+  "statusEffects": [ "mor_radiation" ],
+
+  "renderTemplate": "/tiles/classicmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "mor_irradiatedsnowtile.png",
+    "variants": 5,
+    "lightTransparent": false,
+    "occludesBelow": true,
+    "multiColored": true,
+    "zLevel": 420
+  }
+}

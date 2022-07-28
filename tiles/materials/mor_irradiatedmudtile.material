@@ -1,0 +1,28 @@
+{
+  "materialId": 439,
+  "materialName": "mor_irradiatedmudtile",
+  "particleColor": [ 127, 121, 102, 255 ],
+  "itemDrop": "mor_irradiatedmud",
+  "description": "Thick and sticky mud.",
+  "shortdescription": "Irradiated Mud",
+  "glitchDescription": "Disgusted. This mud is thick and sticky.",
+  "floranDescription": "Floran likess muddy messsss.",
+  "novakidDescription": "Looks t'me like a buncha mud.",
+  "footstepSound": "/sfx/blocks/footstep_mud.ogg",
+  "tillableMod": 31,
+  "soil": true,
+  "health": 1,
+  "category": "materials",
+
+  "statusEffects": [ "mor_radiation" ],
+
+  "renderTemplate": "/tiles/classicmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "mor_irradiatedmudtile.png",
+    "variants": 5,
+    "lightTransparent": false,
+    "occludesBelow": true,
+    "multiColored": true,
+    "zLevel": 1820
+  }
+}
