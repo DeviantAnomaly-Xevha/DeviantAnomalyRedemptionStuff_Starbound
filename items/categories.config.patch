@@ -1,0 +1,14 @@
+[
+  [
+    {
+      "op": "test",
+      "inverse": true,
+      "path": "/labels/mor_aBadIdea"
+    },
+    {
+      "op": "add",
+      "path": "/labels/mor_aBadIdea",
+      "value": "A Bad Idea"
+    }
+  ]
+]
