@@ -1,0 +1,48 @@
+{
+  "objectName": "flagxenomiteanomaly",
+  "colonyTags": [ "xenomiteanomaly" ],
+  "printable": false,
+  "rarity": "Common",
+  "objectType": "teleporter",
+  "category": "teleportMarker",
+  "price": 70,
+  "radioMessagesOnPickup": [ "pickupflag" ],
+
+  "description": "'A bit stiff to call it a flag, isn't it?'\nUse ^green;[E]^white; to bookmark a teleportation location.",
+  "shortdescription": "Xenomite Flag",
+  "race": "xenomiteanomaly",
+  "apexDescription": "A flag? I can probably use this as a waypoint for teleportation.",
+  "avianDescription": "This... flag can be bookmarked as a destination for my ship teleporter.",
+  "floranDescription": "Crysstal flag thing makess good point to teleport back to ussing teleporter",
+  "glitchDescription": "Observant. A small locator module attached to this flag-like object allows it to be bookmarked for teleportation.",
+  "humanDescription": "This flag thing can be saved as a location for my teleporter. Then I can return to it at any time.",
+  "hylotlDescription": "This weird flag can act as a way point, enabling me to return to this point using a teleporter.",
+  "novakidDescription": "I can bookmark this crystal flag for quick teleportin'.",
+  "xenomiteanomalyDescription": "This will be useful as a waypoint if I need to return here.",
+  "interactAction": "OpenTeleportDialog",
+  "interactData": "/interface/warping/destinationonly.config",
+  "inventoryIcon": "flagxenomiteanomalyicon.png",
+  "orientations": [
+    {
+      "image": "flagxenomiteanomaly.png:<color>.<frame>",
+      "flipImages": true,
+      "direction": "left",
+      "imagePosition": [ -17, 0 ],
+      "frames": 24,
+      "animationCycle": 2.0,
+      "spaceScan": 0.1,
+      "anchors": [ "bottom" ]
+    },
+    {
+      "image": "flagxenomiteanomaly.png:<color>.<frame>",
+      "direction": "right",
+      "imagePosition": [ 1, 0 ],
+      "frames": 24,
+      "animationCycle": 2.0,
+      "spaceScan": 0.1,
+      "anchors": [ "bottom" ]
+    }
+  ],
+  "lightColor": [ 0, 102, 25.5 ]
+  //"soundEffect" : "/sfx/objects/flag_flap_loop.ogg"
+}

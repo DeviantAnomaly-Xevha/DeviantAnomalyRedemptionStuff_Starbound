@@ -1,0 +1,66 @@
+{
+  "objectName": "mor_xenomiteseed2",
+  "colonyTags": [ "nature" ],
+  "rarity": "Common",
+  "description": "^#64ff64;Xenomite^reset;, a type of crystal with infectious properties.",
+  "category": "seed",
+  "shortdescription": "Xenomite Shard",
+  "objectType": "farmable",
+  "printable": false,
+  "price": 25,
+  "lightColor": [ 0, 102, 25.5 ],
+  "hasObjectItem": false,
+
+  "biomePlaced": true,
+
+  "apexDescription": "Grow your own crystals. Handy.",
+  "avianDescription": "A plant that grows crystals. It's magic!",
+  "floranDescription": "Floran puzzled by shiny plant.",
+  "glitchDescription": "Concerned. Farming these in abundance could damage the economy.",
+  "humanDescription": "When I was little, I always wanted a money tree. This is the next best thing.",
+  "hylotlDescription": "A plant which sprouts glorious glowing crystals.",
+  "novakidDescription": "A farmable crystal! Now we're talkin'!",
+  "xenomiteanomalyDescription": "Ah. A lovely sight.",
+
+  "inventoryIcon": "mor_xenomiteseed2icon.png",
+
+  "tooltipKind": "seed",
+  "largeImage": "mor_xenomiteseed2.png:default.2.0",
+
+
+  "orientations": [
+    {
+      "dualImage": "mor_xenomiteseed2.png:<color>.<stage>.<alt>",
+      "imagePosition": [ 0, 0 ],
+      "frames": 1,
+      "animationCycle": 0.5,
+
+      "spaces": [
+        [ 0, 0 ],
+        [ 0, 1 ]
+      ],
+      "requireTilledAnchors": false,
+      "anchors": [ "bottom" ]
+
+    }
+  ],
+
+  "radioMessagesOnPickup": [ "pickupore" ],
+
+  "stages": [
+    {
+      "duration": [ 1170, 1230 ]
+    },
+    {
+      "duration": [ 1170, 1230 ]
+    },
+    {
+      "alts": 4,
+      "harvestPool": "mor_xenomiteHarvestSingle"
+    }
+  ],
+  "consumeSoilMoisture": false,
+  "maxImmersion": 0.25,
+
+  "statusEffects": [ "mor_greenrashesdebuff2" ]
+}
