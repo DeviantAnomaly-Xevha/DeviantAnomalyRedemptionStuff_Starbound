@@ -18,6 +18,6 @@
 
   "animationConfig": "mor_greenrashesdebuff.animation",
 
-  "label": "\n Green Rashes\n... Really itchy\n ",
+  "label": "Green Rashes - '... Really itchy'",
   "icon": "/interface/statuses/mor_greenrashesdebuff.png"
 }
