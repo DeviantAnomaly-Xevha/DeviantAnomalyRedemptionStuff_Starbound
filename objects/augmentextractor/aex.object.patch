@@ -1,0 +1,47 @@
+[
+	{
+		"op": "add",
+		"path": "/augmentMap/mor_breathprotection",
+		"value": "mor_breathprotectionaugment"
+	},
+	{
+		"op": "add",
+		"path": "/augmentMap/mor_radiationprotection",
+		"value": "mor_radiationprotectionaugment"
+	},
+	{
+		"op": "add",
+		"path": "/augmentMap/mor_coldprotection",
+		"value": "mor_coldprotectionaugment"
+	},
+	{
+		"op": "add",
+		"path": "/augmentMap/mor_heatprotection",
+		"value": "mor_heatprotectionaugment"
+	},
+	{
+		"op": "add",
+		"path": "/augmentMap/mor_hazmat",
+		"value": "mor_hazmataugment"
+	},
+	{
+		"op": "add",
+		"path": "/augmentMap/mor_anticrystallizerband",
+		"value": "mor_anticrystallizerband"
+	},
+	{
+		"op": "add",
+		"path": "/augmentMap/mor_hev",
+		"value": "mor_hevaugment"
+	},
+	{
+		"op": "add",
+		"path": "/augmentMap/mor_xenomiteshardburst",
+		"value": "mor_xenomiteshardburstaugment"
+	},
+	{
+		"op": "add",
+		"path": "/augmentMap/mor_xa",
+		"value": "mor_xaaugment"
+	}
+]
