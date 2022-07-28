@@ -1,0 +1,18 @@
+[
+  {
+    "op": "add",
+    "path": "/xenomite",
+    "value": { "resistanceStat": "mor_xenomiteResistance" }
+  },
+  {
+    "op": "add",
+    "path": "/xenomite/damageNumberParticles",
+    "value": {
+      "hit": "xenomitedamagenumber",
+      "stronghit": "xenomitedamagenumber",
+      "weakhit": "xenomitedamagenumber",
+      "shieldhit": "xenomitedamagenumber",
+      "kill": "xenomitedamagenumber"
+    }
+  }
+]

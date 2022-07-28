@@ -1,0 +1,62 @@
+[
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/mor_dragonleadoretile",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/displayOres/mor_dragonleadoretile",
+      "value": {
+        "displayName": "Dragon-Lead Ore",
+        "icon": "/items/generic/crafting/PreHM/mor_dragonleadore.png"
+      }
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/mor_maskstile",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/displayOres/mor_maskstile",
+      "value": {
+        "displayName": "Vessel Fragment",
+        "icon": "/items/generic/crafting/PostML/mor_vesselfragment.png"
+      }
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/mor_solidcoriumtile",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/displayOres/mor_solidcoriumtile",
+      "value": {
+        "displayName": "Corium",
+        "icon": "/items/generic/crafting/PostML/mor_corium.png"
+      }
+    }
+  ],
+  [
+    {
+      "op": "test",
+      "path": "/displayOres/mor_xenomiteshardtile",
+      "inverse": true
+    },
+    {
+      "op": "add",
+      "path": "/displayOres/mor_xenomiteshardtile",
+      "value": {
+        "displayName": "Xenomite",
+        "icon": "/items/generic/crafting/PreHM/mor_xenomiteshard.png"
+      }
+    }
+  ]
+]

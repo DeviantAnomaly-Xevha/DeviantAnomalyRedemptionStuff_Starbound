@@ -1,0 +1,31 @@
+{
+  "kind": "mor_greenrashes",
+  "location": "mouth",
+  "definition": {
+    "duration": 0.01,
+    "loops": true,
+    "start": {
+      "particles": [
+        [ "mor_greenrashes1" ],
+        [ "mor_greenrashes2" ]
+      ],
+      "sounds": [ [] ]
+    },
+    "particles": [
+      [ "mor_greenrashes1" ],
+      [ "mor_greenrashes1" ],
+      [ "mor_greenrashes2" ],
+      [ "mor_greenrashes2" ],
+      [ "mor_greenrashes2" ]
+    ],
+    "sounds": [ [] ],
+    "stop": {
+      "particles": [
+        [ "mor_greenrashes1" ],
+        [ "mor_greenrashes2" ],
+        [ "mor_greenrashes2" ]
+      ],
+      "sounds": [ [] ]
+    }
+  }
+}

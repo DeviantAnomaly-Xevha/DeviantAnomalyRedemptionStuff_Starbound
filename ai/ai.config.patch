@@ -1,0 +1,10 @@
+[{
+		"op" : "add",
+		"path" : "/species/xenomiteanomaly",
+		"value" : {
+			"aiFrames" : "xenomiteanomalyAI.png",
+			"portraitFrames" : "portraits/xenomiteanomalyportrait.png",
+			"staticFrames" : "staticxenomiteanomaly.png"	
+		}
+	}
+]

@@ -1,0 +1,29 @@
+{
+  "kind": "mor_infectedwatersmoke",
+  "definition": {
+    "duration": 0.2,
+    "loops": true,
+    "start": {
+      "particles": [
+        []
+      ],
+      "sounds": [
+        []
+      ]
+    },
+    "particles": [
+      [ "mor_infectedwatercorrosiondust", "mor_infectedwaterflames", "mor_infectedwaterflames", "dust2" ]
+    ],
+    "sounds": [
+      []
+    ],
+    "stop": {
+      "particles": [
+        [ "mor_infectedwatercorrosiondust2", "mor_infectedwatercorrosiondust2", "mor_infectedwatercorrosiondust2", "mor_infectedwatercorrosiondust2" ]
+      ],
+      "sounds": [
+        []
+      ]
+    }
+  }
+}

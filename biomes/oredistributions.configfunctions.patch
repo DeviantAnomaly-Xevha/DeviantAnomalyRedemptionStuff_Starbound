@@ -1,0 +1,37 @@
+[
+  [
+    //asteroid
+    {
+      "op": "add",
+      "path": "/asteroid/0/1/-",
+      "value": [ "mor_xenomiteshardtile", 0.33 ]
+    },
+    {
+      "op": "add",
+      "path": "/asteroid/0/1/-",
+      "value": [ "plutonium", 0.35 ]
+    },
+    //moon
+    {
+      "op": "add",
+      "path": "/moon/0/1/-",
+      "value": [ "uranium", 0.30 ]
+    },
+    {
+      "op": "add",
+      "path": "/moon/0/1/-",
+      "value": [ "plutonium", 0.30 ]
+    },
+    //surface
+    {
+      "op": "add",
+      "path": "/depth2/4/1/-",
+      "value": [ "mor_dragonleadoretile", 0.50 ]
+    },
+    {
+      "op": "add",
+      "path": "/depth2/5/1/-",
+      "value": [ "mor_dragonleadoretile", 0.50 ]
+    }
+  ]
+]
