@@ -1,0 +1,12 @@
+[
+  {
+    "op": "add",
+    "path": "/defaultCodexes/xenomiteanomaly",
+    "value": [ "protectorate1", "protectorate2", "xenomiteanomalydiary" ]
+  },
+  {
+    "op": "add",
+    "path": "/genericScriptContexts/sgBlockHandler",
+    "value": "/scripts/blockStatusEffect.lua"
+  }
+]

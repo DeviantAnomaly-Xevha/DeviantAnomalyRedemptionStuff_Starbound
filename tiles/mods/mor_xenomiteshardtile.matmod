@@ -1,0 +1,21 @@
+{
+  "modId": 47,
+  "modName": "mor_xenomiteshardtile",
+  "itemDrop": "mor_xenomiteshard",
+  "description": "Xenomite shard.",
+  "breaksWithTile": true,
+  "health": 5,
+  "harvestLevel": 5,
+
+  "miningSounds": [ "/sfx/tools/pickaxe_ore.ogg", "/sfx/tools/pickaxe_ore2.ogg" ],
+  "miningParticle": "orespark",
+
+  "renderTemplate": "/tiles/classicmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "mor_xenomiteshardtile.png",
+    "variants": 8,
+    "multiColored": false,
+    "zLevel": 0,
+    "radiantLight": [ 0, 102, 25.5 ]
+  }
+}

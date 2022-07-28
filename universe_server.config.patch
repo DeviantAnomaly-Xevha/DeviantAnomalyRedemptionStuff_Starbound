@@ -1,0 +1,16 @@
+[
+	{ "op" : "add",
+		"path" : "/speciesShips/xenomiteanomaly",
+		"value" : [
+		    "/ships/xenomiteanomaly/xenomiteanomalyt0.structure",
+			"/ships/xenomiteanomaly/xenomiteanomalyt1.structure",
+			"/ships/xenomiteanomaly/xenomiteanomalyt2.structure",
+			"/ships/xenomiteanomaly/xenomiteanomalyt3.structure",
+			"/ships/xenomiteanomaly/xenomiteanomalyt4.structure",
+			"/ships/xenomiteanomaly/xenomiteanomalyt5.structure",
+			"/ships/xenomiteanomaly/xenomiteanomalyt6.structure",
+			"/ships/xenomiteanomaly/xenomiteanomalyt7.structure",
+			"/ships/xenomiteanomaly/xenomiteanomalyt8.structure"
+		]
+	}
+]

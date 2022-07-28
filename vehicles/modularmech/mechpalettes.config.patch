@@ -1,0 +1,51 @@
+[
+  //XENOMITE1
+  {
+    "op": "add",
+    "path": "/swapSets/-",
+    "value": [ "c0f863", "36c13b", "209e58", "0e6c6a" ]
+  },
+  //XENOMITE2
+  {
+    "op": "add",
+    "path": "/swapSets/-",
+    "value": [ "36c13b", "209e58", "0e6c6a", "002f41" ]
+  },
+  //THAT DARKER PALETTE ALONGSIDE XENOMITE
+  {
+    "op": "add",
+    "path": "/swapSets/-",
+    "value": [ "3e585a", "303f49", "242b39", "1f1e2e" ]
+  },
+  //THE SAME BUT DARKER
+  {
+    "op": "add",
+    "path": "/swapSets/-",
+    "value": [ "303f49", "242b39", "1f1e2e", "130d1c" ]
+  },
+  //OMEGA
+  {
+    "op": "add",
+    "path": "/swapSets/-",
+    "value": [ "ffd1b8", "ff9287", "df3e37", "961436" ]
+  },
+  //OMEGA2
+  {
+    "op": "add",
+    "path": "/swapSets/-",
+    "value": [ "ff9287", "df3e37", "961436", "3c003a" ]
+  },
+  //TAHT DARKER PALETTE ALONGSIDE OMEGA
+  {
+    "op": "add",
+    "path": "/swapSets/-",
+    "value": [ "536062", "383e3f", "23292b", "15171e" ]
+  },
+  //THE SAME BUT DARKER
+  {
+    "op": "add",
+    "path": "/swapSets/-",
+    "value": [ "383e3f", "23292b", "15171e", "0b070d" ]
+  }
+
+]

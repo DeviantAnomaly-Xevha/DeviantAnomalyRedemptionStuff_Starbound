@@ -1,0 +1,21 @@
+{
+  "modId": 44,
+  "modName": "mor_dragonleadoretile",
+  "itemDrop": "mor_dragonleadore",
+  "description": "Dragon-lead ore.",
+  "breaksWithTile": true,
+  "health": 5,
+  "harvestLevel": 5,
+
+  "miningSounds": [ "/sfx/tools/pickaxe_ore.ogg", "/sfx/tools/pickaxe_ore2.ogg" ],
+  "miningParticle": "orespark",
+
+  "renderTemplate": "/tiles/classicmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "mor_dragonleadoretile.png",
+    "variants": 8,
+    "multiColored": false,
+    "zLevel": 0,
+    "radiantLight": [ 0, 102, 25.5 ]
+  }
+}

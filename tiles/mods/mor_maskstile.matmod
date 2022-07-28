@@ -1,0 +1,21 @@
+{
+  "modId": 45,
+  "modName": "mor_maskstile",
+  "itemDrop": "mor_vesselfragment",
+  "description": "Vessel fragment.",
+  "breaksWithTile": true,
+  "health": 5,
+  "harvestLevel": 5,
+
+  "miningSounds": [ "/sfx/tools/pickaxe_ore.ogg", "/sfx/tools/pickaxe_ore2.ogg" ],
+  "miningParticle": "orespark",
+
+  "renderTemplate": "/tiles/classicmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "mor_maskstile.png",
+    "variants": 8,
+    "multiColored": false,
+    "zLevel": 0,
+    "radiantLight": [ 0, 102, 25.5 ]
+  }
+}

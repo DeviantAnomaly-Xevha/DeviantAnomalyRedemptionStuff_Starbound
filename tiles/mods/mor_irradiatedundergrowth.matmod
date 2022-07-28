@@ -1,0 +1,14 @@
+{
+  "modId": 49,
+  "modName": "mor_irradiatedundergrowth",
+  "description": "Hardy ^#50c41f;radioactive^reset; grass growing from the ceiling.",
+  "health": 0,
+
+  "renderTemplate": "/tiles/classicmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "mor_irradiatedundergrowth.png",
+    "variants": 5,
+    "multiColored": false,
+    "zLevel": 0
+  }
+}

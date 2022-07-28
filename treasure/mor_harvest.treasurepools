@@ -1,0 +1,55 @@
+{
+  "mor_xenomiteHarvest": [
+    [
+      0,
+      {
+        "fill": [
+          {
+            "item": [ "mor_xenomiteitem", 3 ]
+          },
+          {
+            "item": [ "mor_xenomiteshard", 12 ]
+          }
+        ],
+        "pool": [
+          {
+            "weight": 0.5,
+            "item": [ "mor_xenomiteitem", 3 ]
+          },
+          {
+            "weight": 0.5,
+            "item": [ "mor_xenomiteshard", 12 ]
+          }
+        ],
+        "poolRounds": [
+          [ 0.5, 0 ],
+          [ 0.5, 1 ]
+        ]
+      }
+    ]
+  ],
+  "mor_xenomiteHarvestSingle": [
+    [
+      0,
+      {
+        "fill": [
+          {
+            "item": [ "mor_xenomiteshard", 1 ]
+          }
+        ]
+      }
+    ]
+  ],
+  "mor_chicken": [
+    [
+      0,
+      {
+        "fill": [
+          {
+            "item": [ "mor_friedchicken", 2 ]
+          }
+        ]
+      }
+    ]
+  ]
+}
