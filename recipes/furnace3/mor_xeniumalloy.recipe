@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "scorchedcore", "count" : 1 },
+    { "item" : "mor_rawxenium", "count" : 3 }
+  ],
+  "duration": 0.5,
+  "output" : { "item" : "mor_xeniumalloy", "count" : 1 },
+  "groups" : [ "craftingfurnace3", "bars", "all" ]
+}

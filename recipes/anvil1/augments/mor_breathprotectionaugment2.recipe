@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "breathprotectionback", "count" : 1 }
+  ],
+  "output" : { "item" : "mor_breathprotectionaugment", "count" : 1 },
+  "groups" : [ "craftinganvil", "hazardgear", "all" ]
+}

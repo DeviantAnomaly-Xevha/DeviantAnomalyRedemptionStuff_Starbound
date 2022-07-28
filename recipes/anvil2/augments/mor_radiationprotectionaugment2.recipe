@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "radiationprotectionback", "count" : 1 }
+  ],
+  "output" : { "item" : "mor_radiationprotectionaugment", "count" : 1 },
+  "groups" : [ "craftinganvil2", "hazardgear", "all" ]
+}

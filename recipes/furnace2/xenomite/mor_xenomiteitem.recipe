@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "mor_xenomiteshard", "count" : 4 }
+  ],
+  "duration": 0.5,
+  "output" : { "item" : "mor_xenomiteitem", "count" : 1 },
+  "groups" : [ "craftingfurnace2", "bars", "all" ]
+}

@@ -1,0 +1,26 @@
+{
+  "input": [
+    {
+      "item": "mor_heatprotectionaugment",
+      "count": 1
+    },
+    {
+      "item": "mor_hazmataugment",
+      "count": 1
+    },
+    {
+      "item": "mor_anticrystallizerband",
+      "count": 1
+    },
+    {
+      "item": "mor_rawxenium",
+      "count": 4
+    }
+  ],
+  "duration": 0.5,
+  "output": {
+    "item": "mor_hevaugment",
+    "count": 1
+  },
+  "groups" : [ "craftinganvil3", "hazardgear", "all" ]
+}

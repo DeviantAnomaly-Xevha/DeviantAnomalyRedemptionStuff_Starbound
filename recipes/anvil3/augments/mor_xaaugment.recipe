@@ -1,0 +1,18 @@
+{
+  "input": [
+    {
+      "item": "mor_hevaugment",
+      "count": 1
+    },
+    {
+      "item": "mor_xenomiteshardburstaugment",
+      "count": 1
+    }
+  ],
+  "duration": 0.5,
+  "output": {
+    "item": "mor_xaaugment",
+    "count": 1
+  },
+  "groups" : [ "craftinganvil3", "hazardgear", "all" ]
+}

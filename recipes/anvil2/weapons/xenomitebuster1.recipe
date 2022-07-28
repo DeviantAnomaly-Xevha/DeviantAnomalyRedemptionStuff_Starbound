@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "mor_xenomiteshard", "count" : 20 },
+    { "item" : "titaniumbar", "count" : 10 }
+  ],
+  "output" : { "item" : "xenomitebuster1", "count" : 1 },
+  "groups" : [ "craftinganvil2", "weapons", "all" ]
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "mor_xenomiteshard", "count" : 2 },
+    { "item" : "solariumore", "count" : 2 }
+  ],
+  "duration": 0.5,
+  "output" : { "item" : "mor_rawxenium", "count" : 1 },
+  "groups" : [ "craftingfurnace3", "bars", "all" ]
+}

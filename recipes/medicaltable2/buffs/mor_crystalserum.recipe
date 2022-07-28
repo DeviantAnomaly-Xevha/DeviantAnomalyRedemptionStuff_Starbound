@@ -1,0 +1,25 @@
+{
+  "input": [
+    {
+      "item": "petalblue",
+      "count": 2
+    },
+    {
+      "item": "petalyellow",
+      "count": 2
+    },
+    {
+      "item": "mor_liquidinfectedwater",
+      "count": 1
+    },
+    {
+      "item": "syringe",
+      "count": 1
+    }
+  ],
+  "output": {
+    "item": "mor_crystalserum",
+    "count": 1
+  },
+  "groups": [ "craftingmedical2", "buffs" ]
+}

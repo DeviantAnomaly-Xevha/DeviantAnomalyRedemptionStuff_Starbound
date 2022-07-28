@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "xenomitebuster1", "count" : 1 },
+    { "item" : "mor_xenomiteitem", "count" : 20 },
+    { "item" : "refinedaegisalt", "count" : 7 },
+    { "item" : "refinedferozium", "count" : 7 },
+    { "item" : "solariumstar", "count" : 7 }
+  ],
+  "output" : { "item" : "xenomitebuster2", "count" : 1 },
+  "groups" : [ "craftinganvil3", "weapons", "all" ]
+}

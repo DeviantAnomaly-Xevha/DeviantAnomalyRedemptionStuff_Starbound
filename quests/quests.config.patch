@@ -1,0 +1,17 @@
+[
+	{
+		"op": "add",
+		"path": "/initialquests/xenomiteanomaly",
+		"value": [
+			"protectorate"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/pronounGenders/xenomiteanomaly",
+		"value": {
+			"male": "male",
+			"female": "female"
+		}
+	}
+]

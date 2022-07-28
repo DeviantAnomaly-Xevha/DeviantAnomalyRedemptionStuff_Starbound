@@ -1,0 +1,14 @@
+{
+  "input": [
+    { "item": "mor_xenomiteshard" },
+    {
+      "item": "liquidwater"
+    }
+  ],
+  "output": {
+    "item": "mor_liquidinfectedwater",
+    "count": 1
+  },
+  "duration": 0.25,
+  "groups": [ "craftingfarm2", "farming" ]
+}

@@ -1,0 +1,18 @@
+{
+  "input": [
+    {
+      "item": "durasteelbar",
+      "count": 10
+    },
+    {
+      "item": "mor_xenomiteshard",
+      "count": 20
+    }
+  ],
+  "duration": 0.5,
+  "output": {
+    "item": "mor_xenomiteshardburstaugment",
+    "count": 1
+  },
+  "groups" : [ "craftinganvil3", "hazardgear", "all" ]
+}

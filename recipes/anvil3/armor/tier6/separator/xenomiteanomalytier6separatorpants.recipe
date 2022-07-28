@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 8 },
+    { "item" : "xenomiteanomalytier5spants", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "xenomiteanomalytier6spants", "count" : 1 },
+  "groups" : [ "craftingseparator", "armours", "all" ]
+}

@@ -1,0 +1,13 @@
+{
+  "input" : [
+	{ "item" : "goldbar", "count" : 5 },
+	{ "item" : "techcard", "count" : 12 },
+	{ "item" : "mor_xenomiteitem", "count" : 8 }
+  ],
+  "output" : {
+    "item" : "spheretech_xa",
+    "count" : 1
+  },
+  "duration" : 0.0,
+  "groups" : [ "inventorstable2", "all" ]
+}

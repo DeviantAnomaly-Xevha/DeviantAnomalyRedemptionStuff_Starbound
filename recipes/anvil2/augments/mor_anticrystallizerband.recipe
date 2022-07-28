@@ -1,0 +1,22 @@
+{
+  "input": [
+    {
+      "item": "mor_xenomiteitem",
+      "count": 4
+    },
+    {
+      "item": "titaniumbar",
+      "count": 6
+    },
+    {
+      "item": "mor_crystalserum",
+      "count": 8
+    }
+  ],
+  "duration": 0.5,
+  "output": {
+    "item": "mor_anticrystallizerband",
+    "count": 1
+  },
+  "groups" : [ "craftinganvil2", "hazardgear", "all" ]
+}

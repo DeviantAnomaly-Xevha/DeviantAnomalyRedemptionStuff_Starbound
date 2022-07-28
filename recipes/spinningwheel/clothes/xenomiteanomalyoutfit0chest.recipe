@@ -1,0 +1,6 @@
+{
+  "input" : [
+  ],
+  "output" : { "item" : "xenomiteanomalyoutfit0chest", "count" : 1 },
+  "groups" : [ "craftingwheel", "clothes" ]
+}

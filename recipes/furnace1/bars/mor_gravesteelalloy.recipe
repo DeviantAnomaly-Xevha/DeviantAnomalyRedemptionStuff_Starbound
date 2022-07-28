@@ -1,0 +1,14 @@
+{
+  "input" : [
+    {
+      "item": "mor_gravesteelshards",
+      "count": 3
+    }
+  ],
+  "output": {
+    "item": "mor_gravesteelalloy",
+    "count": 1
+  },
+  "duration" : 0.15,
+  "groups" : [ "craftingfurnace1", "bars", "all" ]
+}
