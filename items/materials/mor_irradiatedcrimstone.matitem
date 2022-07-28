@@ -1,0 +1,13 @@
+{
+  "itemName": "mor_irradiatedcrimstone",
+  "price": 0,
+  "category": "block",
+  "rarity": "Common",
+  "inventoryIcon": "mor_irradiatedcrimstone.png",
+  "shortdescription": "Irradiated Crimstone",
+  "description": "Hard cobblestones, smooth to the touch.",
+  "glitchdescription": "Facinated. These cobblestones are naturally smooth.",
+  "florandescription": "Ssmooth cobblessstone rockss.",
+  "novakiddescription": "Ain't uncommon to run across cobblestone rocks like this.",
+  "materialId": 442
+}

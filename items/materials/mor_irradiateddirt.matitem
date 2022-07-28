@@ -1,0 +1,13 @@
+{
+  "itemName": "mor_irradiateddirt",
+  "price": 0,
+  "category": "block",
+  "rarity": "Common",
+  "inventoryIcon": "mor_irradiateddirt.png",
+  "description": "Dirty looking radioactive dirt.",
+  "shortdescription": "Irradiated Dirt",
+  "glitchdescription": "Indifferent. This is basic soil.",
+  "florandescription": "Filthy dirt!",
+  "novakiddescription": "Dirty lookin' dirt.",
+  "materialId": 437
+}

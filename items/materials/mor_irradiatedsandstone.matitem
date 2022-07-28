@@ -1,0 +1,16 @@
+{
+  "itemName": "mor_irradiatedsandstone",
+  "price": 0,
+  "category": "block",
+  "rarity": "Common",
+  "inventoryIcon": "mor_irradiatedsandstone.png",
+  "description": "Tough natural sandstone.",
+  "shortdescription": "Irradiated Sandstone",
+  "glitchdescription": "Observant. This sandstone is made from fine particles of rock.",
+  "florandescription": "Ssandy ssandstone rockss.",
+  "novakiddescription": "Some sandy lookin' rocks.",
+  "learnBlueprintsOnPickup": [
+    "sandstoneblock"
+  ],
+  "materialId": 445
+}

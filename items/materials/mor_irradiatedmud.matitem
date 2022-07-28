@@ -1,0 +1,14 @@
+{
+  "itemName": "mor_irradiatedmud",
+  "price": 0,
+  "category": "block",
+  "rarity": "Common",
+  "inventoryIcon": "mor_irradiatedmud.png",
+  "description": "Thick and sticky mud.",
+  "shortdescription": "Irradiated Mud",
+  "glitchdescription": "Disgusted. This mud is thick and sticky.",
+  "florandescription": "Floran likess muddy messsss.",
+  "novakiddescription": "Looks t'me like a buncha mud.",
+
+  "materialId": 439
+}

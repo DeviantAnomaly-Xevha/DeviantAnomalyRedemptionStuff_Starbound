@@ -1,0 +1,18 @@
+{
+  "itemName": "mor_irradiatedsnow",
+  "price": 0,
+  "category": "block",
+  "rarity": "Common",
+  "inventoryIcon": "mor_irradiatedsnow.png",
+  "shortdescription": "Irradiated Snow",
+  "description": "Soft and fluffy snow.",
+  "glitchdescription": "Enchanted. This snow looks freshly fallen.",
+  "florandescription": "Cold ssnowy sstuff.",
+  "novakiddescription": "Buncha fresh snow.",
+
+  "materialId": 446,
+
+  "learnBlueprintsOnPickup": [
+    "snowball"
+  ]
+}

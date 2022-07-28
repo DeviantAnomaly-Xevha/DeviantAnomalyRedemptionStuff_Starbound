@@ -1,0 +1,14 @@
+{
+  "itemName": "mor_xenomiteshardblock",
+  "price": 0,
+  "category": "block",
+  "rarity": "Common",
+  "inventoryIcon": "mor_xenomiteshardblock.png",
+  "description": "A shimmering block of xenomite crystals.",
+  "shortdescription": "Xenomite Shard Block",
+  "glitchdescription": "Calm. This crystal block has a soothing appearance.",
+  "florandescription": "Ssshiny block made from crysstalss.",
+  "novakiddescription": "The crystals in this block are real purdy.",
+
+  "materialId": 436
+}
