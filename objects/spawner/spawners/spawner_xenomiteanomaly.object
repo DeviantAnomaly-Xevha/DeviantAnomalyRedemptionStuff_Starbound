@@ -1,0 +1,48 @@
+{
+  "objectName" : "spawnerxenomiteanomaly",
+  "colonyTags" : ["misc"],
+  "rarity" : "Common",
+  "description" : "Spawn your very own xenomiteanomaly villager Simply place and then leave the planet or ship. Once you return there will be an NPC.",
+  "shortdescription" : "xenomiteanomaly Spawner",
+  "race" : "xenomiteanomaly",
+  "printable" : false,
+  "category" : "spawner",
+  "price" : 100,
+  "apexDescription" : "Maybe I can reverse engineer this.",
+  "avianDescription" : "What could I possibly want with xenomiteanomalys?",
+  "floranDescription" : "Floran not sssure if want to sssummon xenomiteanomalys.",
+  "glitchDescription" : "Concern. These were all meant to be destroyed.",
+  "humanDescription" : "What could I possibly want with xenomiteanomalys?",
+  "hylotlDescription" : "A xenomiteanomaly spawner. These shouldn't exist.",
+  "xenomiteanomalyDescription" : "Woo.",
+  "inventoryIcon" : "defaulticon.png",
+  "orientations" : [
+    {
+      "image" : "spawner_xenomiteanomaly.png",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "background" ]
+    }
+  ],
+  "scripts" : [ "/objects/spawner/spawners/spawner.lua" ],
+  "scriptDelta" : 1,
+  //6000,
+  "animation" : "/objects/spawner/spawners/xenomiteanomaly.animation",
+  "animationParts" : {
+    "switch" : "spawner_xenomiteanomaly.png"
+  },
+  "animationPosition" : [-8, 0],
+  "inputNodes" : [ ],
+  "outputNodes" : [ ],
+  "spawner" : {
+    "searchRadius" : 32.0,
+    "npcSpeciesOptions" : [ "xenomiteanomaly" ],
+    "npcTypeOptions" : [ "villager" ],
+    "npcParameterOptions" : [
+      {
+        "dropPools" : [ ]
+      }
+    ]
+  }
+}

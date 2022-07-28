@@ -1,0 +1,55 @@
+{
+  "objectName" : "xenomiteanomalymerchant",
+  "colonyTags" : ["xenomiteanomaly", "commerce"],
+  "rarity" : "Common",
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/merchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Penguin Merchant",
+        "subtitle" : "He looks serious"
+      }
+    },
+    "buyFactor" : 1.0,
+    "sellFactor" : 0.2,
+    "items" : [
+      { "item" : ["bomb", 5] },
+      { "item" : "xenomiteanomalykittyhead" },
+      { "item" : "xenomiteanomalybannerlarge" },
+	  { "item" : "xenomiteanomalybannersmall" },
+      { "item" : "xenomiteanomalywoodchair" },
+      { "item" : "xenomiteanomalywooddoor" },
+	  { "item" : "xenomiteanomalywoodenbed" },
+	  { "item" : "xenomiteanomalywoodendesk" },	  
+	  { "item" : "spawnerxenomiteanomaly" }	  
+    ]
+  },
+  "description" : "Is that a Penguin?",
+  "shortdescription" : "Penguin Merchant",
+  "race" : "xenomiteanomaly",
+  "category" : "Merchant",
+  "price" : 1000,
+  
+  "printable" : false,
+  "unbreakable" : false,
+  "apexDescription" : "A silent penguin merchant. Unusual.",
+  "avianDescription" : "Who is this curious merchant?",
+  "floranDescription" : "Floran ssslightly ssscared by sssilent penguin.",
+  "glitchDescription" : "Concerned. This penguin seems unwilling to communicate.",
+  "humanDescription" : "If I kiss it, do you think it'll turn into a prince merchant?",
+  "hylotlDescription" : "This silent creature is not one of us.",
+  "novakidDescription" : "Don't see many penguin merchants round these parts",
+  "xenomiteanomalyDescription" : "Cute",
+  "inventoryIcon" : "xenomiteanomalymerchanticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "xenomiteanomalymerchant.png:<color>.<frame>",
+      "imagePosition" : [-14, 0],
+      "frames" : 29,
+      "animationCycle" : 2,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}
