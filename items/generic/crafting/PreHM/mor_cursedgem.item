@@ -1,0 +1,10 @@
+{
+  "itemName": "mor_cursedgem",
+  "price": 20000,
+  "rarity": "Legendary",
+  "category": "craftingMaterial",
+  "inventoryIcon": "mor_cursedgem.png",
+  "description": "'A gem... or an eye?'",
+  "shortdescription": "Cursed Gem",
+  "itemTags": [ "reagent" ]
+}

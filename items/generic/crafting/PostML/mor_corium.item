@@ -1,0 +1,11 @@
+{
+  "itemName": "xa_corium",
+  "price": 40000,
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "inventoryIcon": "xa_corium.png",
+  "description": "Holding this will cause severe radiation poisoning without proper equipment.",
+  "shortdescription": "Corium",
+  "itemTags": [ "reagent" ],
+  "radioMessagesOnPickup": [ "pickupore" ]
+}

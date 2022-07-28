@@ -1,0 +1,10 @@
+{
+  "itemName": "mor_dragonleadalloy",
+  "price": 3300,
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "inventoryIcon": "mor_dragonleadalloy.png",
+  "description": "",
+  "shortdescription": "Dragon-Lead Alloy",
+  "itemTags": [ "reagent" ]
+}

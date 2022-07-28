@@ -1,0 +1,10 @@
+{
+  "itemName": "mor_archcloth",
+  "price": 5000,
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "inventoryIcon": "mor_archcloth.png",
+  "description": "'Expensive, purple cloth only used by the Nobles of Anglon'",
+  "shortdescription": "Archcloth",
+  "itemTags": [ "reagent" ]
+}

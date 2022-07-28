@@ -1,0 +1,21 @@
+{
+  "itemName": "mor_crystalserum",
+  "price": 100,
+  "rarity": "Common",
+  "category": "medicine",
+  "inventoryIcon": "mor_crystalserum.png",
+  "description": "Reverts xenomite infection to a previous stage.\nCures green rashes.\n'Label says 'Do not swallow.' Why would you do that?'",
+  "shortdescription": "Anti-Crystallizer Serum",
+  "effects": [
+    [
+      {
+        "effect": "mor_crystalserum",
+        "duration": 60
+      }
+    ]
+  ],
+  "emote": "",
+  "emitters": [ "stimuse" ],
+
+  "learnBlueprintsOnPickup": [ "mor_crystalserum", "mor_anticrystallizerband" ]
+}

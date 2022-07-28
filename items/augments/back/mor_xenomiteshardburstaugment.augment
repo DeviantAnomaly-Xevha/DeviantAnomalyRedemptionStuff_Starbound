@@ -1,0 +1,24 @@
+{
+  "itemName": "mor_xenomiteshardburstaugment",
+  "price": 15000,
+  "rarity": "Uncommon",
+  "tooltipKind": "eppaugment",
+  "category": "eppAugment",
+  "inventoryIcon": "mor_xenomiteshardburstaugment.png",
+  "description": "glows, infects nearby attackers",
+  "shortdescription": "Xenomite Shard Burst Augment",
+
+  "augment": {
+    "type": "back",
+    "name": "mor_xenomiteshardburst",
+    "displayName": "Xenomite Shard Burst",
+    "displayIcon": "/items/augments/back/mor_xenomiteshardburstaugment.png",
+    "effects": [ "mor_xenomiteshardburstaugment" ]
+  },
+
+  "radioMessagesOnPickup": [ "pickupaugment" ],
+
+  "scripts": [ "/scripts/augments/augment.lua" ],
+
+  "learnBlueprintsOnPickup": [ "mor_xenomiteshardburstaugment" ]
+}

@@ -1,0 +1,10 @@
+{
+  "itemName": "mor_pureironalloy",
+  "price": 3300,
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "inventoryIcon": "mor_pureironalloy.png",
+  "description": "",
+  "shortdescription": "Pure-Iron Alloy",
+  "itemTags": [ "reagent" ]
+}

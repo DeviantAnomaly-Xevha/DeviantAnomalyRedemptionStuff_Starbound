@@ -1,0 +1,34 @@
+{
+  "itemName": "mor_hazmataugment",
+  "price": 1500,
+  "rarity": "Uncommon",
+  "tooltipKind": "eppaugment",
+  "category": "eppAugment",
+  "inventoryIcon": "mor_hazmataugment.png",
+  "description": "protects against infected water and radiation, greatly extends breathing",
+  "shortdescription": "Hazmat Augment",
+
+  "augment": {
+    "type": "back",
+    "name": "mor_hazmat",
+    "displayName": "Hazmat Augment",
+    "displayIcon": "/items/augments/back/mor_hazmataugment.png",
+    "effects": [
+      {
+        "stat": "biomeradiationImmunity",
+        "amount": 1.0
+      },
+      {
+        "stat": "breathDepletionRate",
+        "effectiveMultiplier": 0.25
+      },
+      "mor_infectedwaterblockaugment"
+    ]
+  },
+
+  "radioMessagesOnPickup": [ "pickupaugment" ],
+
+  "scripts": [ "/scripts/augments/augment.lua" ],
+
+  "learnBlueprintsOnPickup": [ "mor_hazmataugment" ]
+}

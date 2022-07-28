@@ -1,0 +1,11 @@
+{
+  "itemName": "mor_uranium",
+  "price": 2000,
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "inventoryIcon": "mor_uranium.png",
+  "description": "Holding this may cause radiation poisoning without proper equipment.",
+  "shortdescription": "Uranium",
+  "itemTags": [ "reagent" ],
+  "radioMessagesOnPickup": [ "pickupore" ]
+}

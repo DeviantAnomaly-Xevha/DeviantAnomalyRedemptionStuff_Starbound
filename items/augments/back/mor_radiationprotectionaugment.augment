@@ -1,0 +1,33 @@
+{
+  "itemName": "mor_radiationprotectionaugment",
+  "price": 750,
+  "rarity": "Uncommon",
+  "tooltipKind": "eppaugment",
+  "category": "eppAugment",
+  "inventoryIcon": "mor_radiationprotectionaugment.png",
+  "description": "Produces breathable air, and protects against radiation.",
+  "shortdescription": "Radiation Protection Augment",
+
+  "augment": {
+    "type": "back",
+    "name": "mor_radiationprotection",
+    "displayName": "Radiation Protection",
+    "displayIcon": "/items/augments/back/mor_radiationprotectionaugment.png",
+    "effects": [
+      {
+        "stat": "biomeradiationImmunity",
+        "amount": 1.0
+      },
+      {
+        "stat": "breathProtection",
+        "amount": 1.0
+      }
+    ]
+  },
+
+  "radioMessagesOnPickup": [ "pickupaugment" ],
+
+  "scripts": [ "/scripts/augments/augment.lua" ],
+
+  "learnBlueprintsOnPickup": [ "mor_radiationprotectionaugment", "mor_coldprotectionaugment" ]
+}

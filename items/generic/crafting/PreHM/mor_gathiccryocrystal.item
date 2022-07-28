@@ -1,0 +1,11 @@
+{
+  "itemName": "mor_gathiccryocrystal",
+  "price": 500,
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "inventoryIcon": "mor_gathiccryocrystal.png",
+  "description": "'A freezing cold crystal'",
+  "shortdescription": "Gathic Cryo-Crystal",
+  "itemTags": [ "reagent" ],
+  "learnBlueprintsOnPickup": [ "mor_pureironalloy" ]
+}

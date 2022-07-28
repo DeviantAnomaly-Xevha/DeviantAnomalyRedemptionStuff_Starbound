@@ -1,0 +1,37 @@
+{
+  "itemName": "mor_coldprotectionaugment",
+  "price": 1000,
+  "rarity": "Rare",
+  "tooltipKind": "eppaugment",
+  "category": "eppAugment",
+  "inventoryIcon": "mor_coldprotectionaugment.png",
+  "description": "Produces breathable air, and protects against radiation and cold.",
+  "shortdescription": "Cold Protection Augment",
+
+  "augment": {
+    "type": "back",
+    "name": "mor_coldprotection",
+    "displayName": "Cold Protection",
+    "displayIcon": "/items/augments/back/mor_coldprotectionaugment.png",
+    "effects": [
+      {
+        "stat": "biomecoldImmunity",
+        "amount": 1.0
+      },
+      {
+        "stat": "biomeradiationImmunity",
+        "amount": 1.0
+      },
+      {
+        "stat": "breathProtection",
+        "amount": 1.0
+      }
+    ]
+  },
+
+  "radioMessagesOnPickup": [ "pickupaugment" ],
+
+  "scripts": [ "/scripts/augments/augment.lua" ],
+
+  "learnBlueprintsOnPickup": [ "mor_coldprotectionaugment", "mor_heatprotectionaugment" ]
+}

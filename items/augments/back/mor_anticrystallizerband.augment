@@ -1,0 +1,24 @@
+{
+  "itemName": "mor_anticrystallizerband",
+  "price": 10000,
+  "rarity": "Uncommon",
+  "tooltipKind": "eppaugment",
+  "category": "eppAugment",
+  "inventoryIcon": "mor_anticrystallizerband.png",
+  "description": "Makes you immune to all xenomite infections",
+  "shortdescription": "Anti-Crystallizer Band",
+
+  "augment": {
+    "type": "back",
+    "name": "mor_anticrystallizerband",
+    "displayName": "Anti-Crystallizer Band",
+    "displayIcon": "/items/augments/back/mor_anticrystallizerband.png",
+    "effects": [ "mor_anticrystallizerband" ]
+  },
+
+  "radioMessagesOnPickup": [ "pickupaugment" ],
+
+  "scripts": [ "/scripts/augments/augment.lua" ],
+
+  "learnBlueprintsOnPickup": [ "mor_xenomiteprotectionaugment" ]
+}

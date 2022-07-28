@@ -1,0 +1,11 @@
+{
+  "itemName": "mor_gravesteelshards",
+  "price": 2,
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "inventoryIcon": "mor_gravesteelshards.png",
+  "description": "",
+  "shortdescription": "Grave Steel Shards",
+  "itemTags": [ "reagent" ],
+  "learnBlueprintsOnPickup": [ "mor_gravesteelalloy" ]
+}

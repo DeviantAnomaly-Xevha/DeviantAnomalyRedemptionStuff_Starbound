@@ -1,0 +1,11 @@
+{
+  "itemName": "mor_plutonium",
+  "price": 10000,
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "inventoryIcon": "mor_plutonium.png",
+  "description": "Holding this may cause radiation poisoning without proper equipment.",
+  "shortdescription": "Plutonium",
+  "itemTags": [ "reagent" ],
+  "radioMessagesOnPickup": [ "pickupore" ]
+}

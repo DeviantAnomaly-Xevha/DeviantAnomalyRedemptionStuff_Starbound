@@ -1,0 +1,11 @@
+{
+  "itemName": "mor_rawxenium",
+  "price": 1500,
+  "rarity": "Rare",
+  "category": "craftingMaterial",
+  "inventoryIcon": "mor_rawxenium.png",
+  "description": "Use an Atomic Furnace to craft Xenium Alloy.",
+  "shortdescription": "Raw Xenium",
+  "itemTags": [ "reagent" ],
+  "learnBlueprintsOnPickup": [ "mor_xeniumalloy", "mor_hevaugment" ]
+}

@@ -1,0 +1,12 @@
+{
+  "itemName": "mor_xenomiteshard",
+  "price": 25,
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "inventoryIcon": "mor_xenomiteshard.png",
+  "description": "Holding this may infect you.",
+  "shortdescription": "Xenomite Shard",
+  "itemTags": [ "reagent" ],
+  "radioMessagesOnPickup": [ "pickupore" ],
+  "learnBlueprintsOnPickup": [ "mor_xenomiteshard", "mor_xenomiteitem", "mor_xenomiteseed", "mor_xenomiteshardblock", "mor_xenomiteshardburstaugment", "xenomitebuster1", "mor_liquidinfectedwater" ]
+}

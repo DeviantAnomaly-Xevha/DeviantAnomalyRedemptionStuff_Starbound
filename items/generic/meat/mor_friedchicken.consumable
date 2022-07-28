@@ -1,0 +1,18 @@
+{
+  "itemName": "mor_friedchicken",
+  "rarity": "Common",
+  "price": 12,
+  "category": "food",
+  "inventoryIcon": "mor_friedchicken.png",
+  "description": "'I'm lovin' it'",
+  "shortdescription": "Fried Chicken",
+  "foodValue": 10,
+  "tooltipKind": "food",
+  "builder": "/items/buildscripts/buildfood.lua",
+  "maxStack": 1,
+  "itemAgingScripts": [ "/scripts/items/rotting.lua" ],
+  "rottingMultiplier": 0.5,
+  "blockingEffects": [
+    "wellfed"
+  ]
+}

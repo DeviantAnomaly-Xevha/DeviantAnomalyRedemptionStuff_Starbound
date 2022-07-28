@@ -1,0 +1,10 @@
+{
+  "itemName": "mor_gravesteelalloy",
+  "price": 10,
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "inventoryIcon": "mor_gravesteelalloy.png",
+  "description": "",
+  "shortdescription": "Grave Steel Alloy",
+  "itemTags": [ "reagent" ]
+}

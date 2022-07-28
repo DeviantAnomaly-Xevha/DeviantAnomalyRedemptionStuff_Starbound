@@ -1,0 +1,43 @@
+{
+  "itemName": "mor_hevaugment",
+  "price": 10000,
+  "rarity": "Uncommon",
+  "tooltipKind": "eppaugment",
+  "category": "eppAugment",
+  "inventoryIcon": "mor_hevaugment.png",
+  "description": "Produces breathable air, and protects against radiation, cold, heat, xenomite, and infected water.",
+  "shortdescription": "HEV Augment",
+
+  "augment": {
+    "type": "back",
+    "name": "mor_hev",
+    "displayName": "HEV Augment",
+    "displayIcon": "/items/augments/back/mor_hevaugment.png",
+    "effects": [
+      {
+        "stat": "biomeheatImmunity",
+        "amount": 1.0
+      },
+      {
+        "stat": "biomecoldImmunity",
+        "amount": 1.0
+      },
+      {
+        "stat": "biomeradiationImmunity",
+        "amount": 1.0
+      },
+      {
+        "stat": "breathProtection",
+        "amount": 1.0
+      },
+      "mor_anticrystallizerband",
+      "mor_infectedwaterblockaugment"
+    ]
+  },
+
+  "radioMessagesOnPickup": [ "pickupaugment" ],
+
+  "scripts": [ "/scripts/augments/augment.lua" ],
+
+  "learnBlueprintsOnPickup": [ "mor_hevaugment", "mor_xaaugment" ]
+}

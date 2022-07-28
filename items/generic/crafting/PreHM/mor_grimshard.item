@@ -1,0 +1,10 @@
+{
+  "itemName": "mor_grimshard",
+  "price": 25,
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "inventoryIcon": "mor_grimshard.png",
+  "description": "'Infused with shadow magic'",
+  "shortdescription": "Grim Shard",
+  "itemTags": [ "reagent" ]
+}

@@ -1,0 +1,11 @@
+{
+  "itemName": "mor_vesselfragment",
+  "price": 8500,
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "inventoryIcon": "mor_vesselfragment.png",
+  "description": "",
+  "shortdescription": "Vessel Fragment",
+  "itemTags": [ "reagent" ],
+  "radioMessagesOnPickup": [ "pickupore" ]
+}

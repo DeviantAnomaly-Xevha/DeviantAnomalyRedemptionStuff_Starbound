@@ -1,0 +1,29 @@
+{
+  "itemName": "mor_breathprotectionaugment",
+  "price": 500,
+  "rarity": "Uncommon",
+  "tooltipKind": "eppaugment",
+  "category": "eppAugment",
+  "inventoryIcon": "mor_breathprotectionaugment.png",
+  "description": "Produces breathable air.",
+  "shortdescription": "Breath Protection Augment",
+
+  "augment": {
+    "type": "back",
+    "name": "mor_breathprotection",
+    "displayName": "Breath Protection",
+    "displayIcon": "/items/augments/back/mor_breathprotectionaugment.png",
+    "effects": [
+      {
+        "stat": "breathProtection",
+        "amount": 1.0
+      }
+    ]
+  },
+
+  "radioMessagesOnPickup": [ "pickupaugment" ],
+
+  "scripts": [ "/scripts/augments/augment.lua" ],
+
+  "learnBlueprintsOnPickup": [ "mor_breathprotectionaugment", "mor_radiationprotectionaugment" ]
+}

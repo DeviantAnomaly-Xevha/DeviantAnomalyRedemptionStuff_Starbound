@@ -1,0 +1,10 @@
+{
+  "itemName": "mor_xeniumalloy",
+  "price": 3000,
+  "rarity": "Rare",
+  "category": "craftingMaterial",
+  "inventoryIcon": "mor_xeniumalloy.png",
+  "description": " ",
+  "shortdescription": "Xenium Alloy",
+  "itemTags": [ "reagent" ]
+}

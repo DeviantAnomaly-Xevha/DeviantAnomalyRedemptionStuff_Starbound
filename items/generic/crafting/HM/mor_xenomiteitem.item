@@ -1,0 +1,11 @@
+{
+  "itemName": "mor_xenomiteitem",
+  "price": 500,
+  "rarity": "Common",
+  "category": "craftingMaterial",
+  "inventoryIcon": "mor_xenomiteitem.png",
+  "description": "'Infects living things.'",
+  "shortdescription": "Xenomite",
+  "itemTags": [ "reagent" ],
+  "learnBlueprintsOnPickup": [ "mor_xenomiteshard", "mor_xenomiteseed", "spheretech_xa", "mor_xenomiteprotectionaugment" ]
+}

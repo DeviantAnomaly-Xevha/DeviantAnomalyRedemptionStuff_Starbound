@@ -1,0 +1,29 @@
+{
+  "itemName": "mor_divingaugment",
+  "price": 10000,
+  "rarity": "Uncommon",
+  "tooltipKind": "eppaugment",
+  "category": "eppAugment",
+  "inventoryIcon": "mor_divingaugment.png",
+  "description": "greatly extends breathing",
+  "shortdescription": "Diving Augment (^#ff6464;deprecated^reset;)",
+
+  "augment": {
+    "type": "back",
+    "name": "mor_diving",
+    "displayName": "Diving Augment",
+    "displayIcon": "/items/augments/back/mor_divingaugment.png",
+    "effects": [
+      {
+        "stat": "maxBreath",
+        "amount": 300
+      }
+    ]
+  },
+
+  "radioMessagesOnPickup": [ "pickupaugment" ],
+
+  "scripts": [ "/scripts/augments/augment.lua" ],
+
+  "learnBlueprintsOnPickup": [ "mor_divingaugment", "mor_radiationprotectionaugment" ]
+}

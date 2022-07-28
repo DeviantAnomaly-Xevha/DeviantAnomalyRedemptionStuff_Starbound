@@ -1,0 +1,24 @@
+{
+  "itemName": "mor_infectedwaterprotectionaugment",
+  "price": 10000,
+  "rarity": "Uncommon",
+  "tooltipKind": "eppaugment",
+  "category": "eppAugment",
+  "inventoryIcon": "mor_infectedwaterprotectionaugment.png",
+  "description": "protects against infected water",
+  "shortdescription": "Infected Water Protection Augment (^#ff6464;deprecated^reset;)",
+
+  "augment": {
+    "type": "back",
+    "name": "mor_infectedwaterprotection",
+    "displayName": "Infected Water Protection",
+    "displayIcon": "/items/augments/back/mor_infectedwaterprotectionaugment.png",
+    "effects": [ "mor_infectedwaterblockaugment" ]
+  },
+
+  "radioMessagesOnPickup": [ "pickupaugment" ],
+
+  "scripts": [ "/scripts/augments/augment.lua" ],
+
+  "learnBlueprintsOnPickup": [ "mor_infectedwaterprotectionaugment", "mor_hazmataugment" ]
+}
