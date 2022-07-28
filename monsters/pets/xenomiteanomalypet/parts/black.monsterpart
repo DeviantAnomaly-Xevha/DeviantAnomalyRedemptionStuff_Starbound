@@ -1,0 +1,8 @@
+{
+  "name" : "black",
+  "category" : "xenomiteanomalypet",
+  "type" : "body",
+  "frames" : {
+    "body" : "black.png"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "mint",
+  "category" : "xenomiteanomalypet",
+  "type" : "body",
+  "frames" : {
+    "body" : "mint.png"
+  }
+}

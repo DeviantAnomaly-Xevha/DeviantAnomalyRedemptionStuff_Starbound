@@ -1,0 +1,13 @@
+[
+  { "op" : "replace",
+	"path" : "/description",
+	"value" : "Fresh and clear water."
+  },
+  { "op" : "add",
+	"path" : "/interactions/-",
+    "value": {
+      "liquid": 9,
+      "materialResult": "obsidian"
+    }
+  }
+]
