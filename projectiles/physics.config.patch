@@ -1,0 +1,19 @@
+[
+  {
+    "op": "add",
+    "path": "/darsprojectileignoreallcollision",
+    "value": {
+      "gravityMultiplier": 0.0,
+      "bounceFactor": 0.0,
+      "maxMovementPerStep": 0.4,
+      "collisionEnabled": false,
+      "ignorePlatformCollision": true,
+
+      "airFriction": 0.0,
+      "liquidFriction": 0.0,
+      "speedLimit": null,
+      "maximumCorrection": 0.75
+    }
+  }
+]
+

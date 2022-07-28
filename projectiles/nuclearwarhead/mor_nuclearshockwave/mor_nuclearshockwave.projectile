@@ -1,0 +1,64 @@
+{
+  "projectileName" : "mor_nuclearshockwave",
+  "image" : "mor_nuclearshockwave.png",
+  "frameNumber" : 1,
+  "timeToLive" : 2,
+  "speed" : 200,
+  "damagePoly" : [[-32, -500], [-32, 500], [32, 500], [32, -500]],
+  "animationLoops" : false,
+  "flippable" : true,
+  "fullbright" : true,
+  "physics" : "illusion",
+  "bounces" : -1,
+  "damageTeam" : { "type" : "indiscriminate" },
+  "damageKind" : "hammer",
+  "statusEffects" : [{"effect" : "burning", "duration" : 20}],
+  "knockback" : 200,
+  "power" : 200,
+  "piercing" : true,
+  "damageType" : "ignoresdef",
+  
+  "periodicActions" : [
+    {
+      "time" : 0.01,
+      "action" : "loop",
+      "count" : 3,
+      "body" : [
+        {
+          "action" : "particle",
+          "rotate" : true,
+          "specification" : {
+            "type" : "animated",
+            "animation" : "/animations/mediumflamefire/mediumflamefire.animation",
+            "position" : [0, 0],
+            "initialVelocity" : [150, 0.0],
+            "fade" : 0.3,
+            "destructionAction" : "shrink",
+            "destructionTime" : 0.3,
+            "size" : 4.0,
+            "timeToLive" : 0.6,
+            "light" : [218, 83, 2],
+            "fullbright" : true,
+            "layer" : "middle",
+            "collidesForeground" : false,
+            "variance" : {
+              "position" : [0, 63],
+              "initialVelocity" : [50, 0]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "time" : 0.25,
+      "action" : "projectile",
+      "type" : "mor_nuclearshockwavetrail"
+    }
+  ],
+  
+  "scripts" : ["mor_nuclearshockwave.lua"],
+  "scriptDelta" : 1,
+  
+  "broadcastArea" : [-64, -64, 0, 64],
+  "broadcastEffect" : "mor_nuclearblast"
+}

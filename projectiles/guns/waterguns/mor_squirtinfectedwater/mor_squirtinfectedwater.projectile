@@ -1,0 +1,24 @@
+{
+  "projectileName": "mor_squirtinfectedwater",
+  "image": "mor_squirtinfectedwater.png",
+  "physics": "squirt",
+  "animationCycle": 1,
+  "frameNumber": 10,
+  "power": 50,
+  "speed": 50,
+  "bounces": 0,
+  "piercing": false,
+  "damageKind": "xenomite",
+  "statusEffects": [
+    "mor_infectedwatercorrode"
+  ],
+  "actionOnReap": [
+    {
+      "action": "liquid",
+      "liquid": "mor_infectedwater",
+      "quantity": 1
+    }
+  ],
+  "emitters": [ "mor_infectedwatersquirt" ],
+  "hydrophobic": true
+}

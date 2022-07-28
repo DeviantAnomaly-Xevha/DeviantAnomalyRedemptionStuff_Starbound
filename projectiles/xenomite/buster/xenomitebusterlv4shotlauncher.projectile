@@ -1,0 +1,100 @@
+{
+  "projectileName": "xenomitebusterlv4shotlauncher",
+  "image": "xenomitebusterlv4shotlauncher.png",
+  "animationCycle": 0.2,
+  "frameNumber": 1,
+  "power": 6,
+  "speed": 0.01,
+  "damageKind": "nodamage",
+  "damageKindImage": "icon.png",
+  "pointLight": false,
+
+  "periodicActions": [
+    {
+      "action": "projectile",
+      "type": "xenomitebusterlv4shockwave",
+      "inheritDamageFactor": 2,
+      "time": 0,
+      "repeat": false
+    },
+    {
+      "action": "projectile",
+      "type": "xenomitebusterlv4shot",
+      "inheritDamageFactor": 1,
+      "time": 0,
+      "repeat": false
+    },
+    {
+      "action": "projectile",
+      "type": "xenomitebusterlv4shottrail1",
+      "time": 0.03,
+      "repeat": false
+    },
+    {
+      "action": "projectile",
+      "type": "xenomitebusterlv4shot2",
+      "inheritDamageFactor": 1,
+      "time": 0.045,
+      "repeat": false
+    },
+    {
+      "action": "projectile",
+      "type": "xenomitebusterlv4shottrail2",
+      "time": 0.06,
+      "repeat": false
+    },
+    {
+      "action": "projectile",
+      "type": "xenomitebusterlv4shot2trail1",
+      "time": 0.075,
+      "repeat": false
+    },
+    {
+      "action": "projectile",
+      "type": "xenomitebusterlv4shottrail3",
+      "time": 0.09,
+      "repeat": false
+    },
+    {
+      "action": "projectile",
+      "type": "xenomitebusterlv4shot",
+      "inheritDamageFactor": 1,
+      "time": 0.09,
+      "repeat": false
+    },
+    {
+      "action": "projectile",
+      "type": "xenomitebusterlv4shot2trail2",
+      "time": 0.105,
+      "repeat": false
+    },
+    {
+      "action": "projectile",
+      "type": "xenomitebusterlv4shottrail1",
+      "time": 0.12,
+      "repeat": false
+    },
+    {
+      "action": "projectile",
+      "type": "xenomitebusterlv4shot2trail3",
+      "time": 0.135,
+      "repeat": false
+    },
+    {
+      "action": "projectile",
+      "type": "xenomitebusterlv4shottrail2",
+      "time": 0.15,
+      "repeat": false
+    },
+    {
+      "action": "projectile",
+      "type": "xenomitebusterlv4shottrail3",
+      "time": 0.18,
+      "repeat": false
+    }
+  ],
+
+  "ignoreTerrain": true,
+
+  "timeToLive": 0.2
+}

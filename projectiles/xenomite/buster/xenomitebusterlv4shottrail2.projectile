@@ -1,0 +1,25 @@
+{
+  "projectileName": "xenomitebusterlv4shottrail2",
+  "image": "xenomitebusterlv4shottrail2.png",
+  "layer": "front",
+  "renderLayer": "ForegroundEntity+8",
+  "zLevel": 200,
+  "animationCycle": 0.25,
+  "frameNumber": 1,
+  "power": 0,
+  "speed": 50,
+  "damageKind": "nodamage",
+  "damageKindImage": "icon.png",
+  "statusEffects": [],
+  "fullbright": true,
+  "lightColor": [ 192, 248, 99 ],
+  "pointLight": false,
+
+  "scripts": [ "/scripts/projectiles/sinewaveprojectile.lua" ],
+  "scriptDelta": 1,
+
+  "wavePeriod": 0.2,
+  "waveAmplitude": 0.5,
+
+  "timeToLive": 5
+}

@@ -1,0 +1,19 @@
+{
+  "projectileName": "xenomitebusterlv3hit",
+  "image": "xenomitebusterlv3hit.png",
+  "layer": "front",
+  "renderLayer": "ForegroundEntity+10",
+  "zLevel": 200,
+  "animationCycle": 0.15,
+  "frameNumber": 6,
+  "power": 0,
+  "speed": 0,
+  "knockback": 0,
+  "physics": "darsprojectileignoreallcollision",
+  "damageKind": "xenomiteplasma",
+  "damageKindImage": "icon.png",
+  "lightColor": [ 54, 193, 59 ],
+  "fullbright": true,
+  "ignoreTerrain": true,
+  "timeToLive": 0.125
+}

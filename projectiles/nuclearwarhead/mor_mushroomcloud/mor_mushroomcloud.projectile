@@ -1,0 +1,109 @@
+{
+  "projectileName" : "mor_mushroomcloud",
+  "image" : "/projectiles/invisibleprojectile/invisibleprojectile.png",
+  "frameNumber" : 1,
+  "speed" : 12.5,
+  "timeToLive" : 40,
+  "animationLoops" : false,
+  "flippable" : true,
+  "onlyHitTerrain" : true,
+  "physics" : "illusion",
+  "bounces" : -1,
+  "periodicActions" : [
+    {
+      "time" : 0.01,
+      "action" : "loop",
+      "count" : 3,
+      "body" : [
+        {
+          "action" : "particle",
+          "rotate" : true,
+          "specification" : {
+            "type" : "animated",
+            "animation" : "/animations/mediumflamefire/mediumflamefire.animation",
+            "position" : [0, 0],
+            "initialVelocity" : [0.0, 0.0],
+            "size" : 8.0,
+            "timeToLive" : 0.6,
+            "light" : [218, 83, 2],
+            "fullbright" : true,
+            "layer" : "middle",
+            "collidesForeground" : false,
+            "variance" : {
+              "position" : [30, 63],
+              "initialVelocity" : [0, 0]
+            }
+          }
+        }
+        /* {
+          "action" : "particle",
+          "rotate" : true,
+          "specification" : {
+            "type" : "animated",
+            "animation" : "/animations/mediumflamefire/mor_nuclearfire.animation",
+            "position" : [30, 0],
+            "initialVelocity" : [12.5, 0.0],
+            "finalVelocity" : [-15.0, 0.0],
+            "approach" : [10, 10],
+            "fade" : 0.3,
+            "destructionAction" : "shrink",
+            "destructionTime" : 0.3,
+            "size" : 4.0,
+            "timeToLive" : 6.0,
+            "light" : [218, 83, 2],
+            "fullbright" : true,
+            "layer" : "middle",
+            "collidesForeground" : false,
+            "variance" : {
+              "initialVelocity" : [0, 30.0],
+              "position" : [0, 20.0]
+            }
+          }
+        },
+        {
+          "action" : "particle",
+          "rotate" : true,
+          "specification" : {
+            "type" : "animated",
+            "animation" : "/animations/mediumflamefire/mor_nuclearfire.animation",
+            "position" : [0, 0],
+            "initialVelocity" : [-3.5, 0.0],
+            "fade" : 0.3,
+            "destructionAction" : "shrink",
+            "destructionTime" : 0.3,
+            "size" : 4.0,
+            "timeToLive" : 6.0,
+            "light" : [218, 83, 2],
+            "fullbright" : true,
+            "layer" : "middle",
+            "collidesForeground" : false,
+            "variance" : {
+              "position" : [0, 70]
+            }
+          }
+        } */
+      ]
+    },
+    {
+      "time" : 2,
+      "action" : "projectile",
+      "type" : "mor_mushroomcloudstem",
+      "angle" : 0
+    },
+    {
+      "time" : 0,
+      "repeat" : false,
+      "action" : "projectile",
+      "type" : "mor_mushroomcloudstem",
+      "angle" : 0
+    },
+    {
+      "time" : 0,
+      "repeat" : false,
+      "action" : "projectile",
+      "type" : "mor_mushroomcloudground",
+      "angle" : 0
+    }
+  ],
+  "persistentAudio" : "/sfx/objects/flametrap_loop.ogg"
+}

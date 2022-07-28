@@ -1,0 +1,40 @@
+{
+  "projectileName": "xenomitebusterlv4shockwave",
+  "image": "xenomitebusterlv4shockwave.png",
+  "layer": "front",
+  "renderLayer": "ForegroundEntity+9",
+  "zLevel": 200,
+  "animationCycle": 0.18,
+  "frameNumber": 12,
+  "power": 12,
+  "speed": 0.01,
+  "piercing": true,
+  "knockback": 16,
+  "statusEffects": [
+    {
+      "effect": "mor_greenrashesdebuff",
+      "duration": 5
+    },
+    {
+      "effect": "mor_glowingpustulesdebuff",
+      "duration": 5
+    }
+  ],
+  "damageKind": "xenomiteplasma",
+  "damageKindImage": "icon.png",
+  "damagePoly": [
+    [ 7, 22 ],
+    [ 16, 0 ],
+    [ 7, -22 ],
+    [ -15, -31 ],
+    [ -38, -22 ],
+    [ -47, 0 ],
+    [ -38, 22 ],
+    [ -15, 31 ]
+  ],
+  "lightColor": [ 192, 248, 99 ],
+  "fullbright": true,
+  "ignoreTerrain": true,
+
+  "timeToLive": 0.18
+}

@@ -1,0 +1,65 @@
+{
+  "projectileName": "xenomitebusterlv4shot",
+  "image": "xenomitebusterlv4shot.png",
+  "layer": "front",
+  "renderLayer": "ForegroundEntity+10",
+  "zLevel": 200,
+  "animationCycle": 0.25,
+  "frameNumber": 1,
+  "power": 6.0,
+  "speed": 50,
+  "knockback": 16,
+  "statusEffects": [
+    {
+      "effect": "mor_greenrashesdebuff",
+      "duration": 5
+    },
+    {
+      "effect": "mor_glowingpustulesdebuff",
+      "duration": 5
+    }
+  ],
+  "damageKind": "xenomiteplasma",
+  "damageKindImage": "icon.png",
+  "damagePoly": [
+    [ 5, 6.5 ],
+    [ 8, 2.5 ],
+    [ 8, -2.5 ],
+    [ 5, -6.5 ],
+    [ -3, -6.5 ],
+    [ -6, -2.5 ],
+    [ -6, 2.5 ],
+    [ -3, 6.5 ]
+  ],
+  "fullbright": true,
+  "lightColor": [ 192, 248, 99 ],
+  "pointLight": false,
+  "actionOnHit": [
+    {
+      "action": "projectile",
+      "type": "xenomitebusterlv1andlv4hit"
+    },
+    {
+      "action": "sound",
+      "options": [ "/sfx/xenomiteweapons/xenomitebuster/busterbasichit.ogg" ]
+    }
+  ],
+  "actionOnCollide": [
+    {
+      "action": "projectile",
+      "type": "xenomitebusterlv1andlv4hit"
+    },
+    {
+      "action": "sound",
+      "options": [ "/sfx/xenomiteweapons/xenomitebuster/busterhitobject.ogg" ]
+    }
+  ],
+
+  "scripts": [ "/scripts/projectiles/sinewaveprojectile.lua" ],
+  "scriptDelta": 1,
+
+  "wavePeriod": 0.2,
+  "waveAmplitude": 0.5,
+
+  "timeToLive": 5
+}

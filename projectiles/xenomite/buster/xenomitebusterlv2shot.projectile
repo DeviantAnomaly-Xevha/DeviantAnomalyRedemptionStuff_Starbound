@@ -1,0 +1,55 @@
+{
+  "projectileName": "xenomitebusterlv2shot",
+  "image": "xenomitebusterlv2shot.png",
+  "layer": "front",
+  "renderLayer": "ForegroundEntity+10",
+  "zLevel": 200,
+  "animationCycle": 0.09,
+  "frameNumber": 6,
+  "power": 4,
+  "speed": 50,
+  "knockback": 12,
+  "statusEffects": [
+    {
+      "effect": "mor_greenrashesdebuff",
+      "duration": 5
+    }
+  ],
+  "damageKind": "xenomiteplasma",
+  "damageKindImage": "icon.png",
+  "damagePoly": [
+    [ 14, 6 ],
+    [ 20, 2 ],
+    [ 20, -2 ],
+    [ 14, -6 ],
+    [ 2, -5 ],
+    [ -1, -2 ],
+    [ -1, 2 ],
+    [ 2, 5 ]
+  ],
+  "fullbright": true,
+  "lightColor": [ 32, 158, 88 ],
+  "pointLight": false,
+  "actionOnHit": [
+    {
+      "action": "projectile",
+      "type": "xenomitebusterlv2hit"
+    },
+    {
+      "action": "sound",
+      "options": [ "/sfx/xenomiteweapons/xenomitebuster/busterbasichit.ogg" ]
+    }
+  ],
+  "actionOnCollide": [
+    {
+      "action": "projectile",
+      "type": "xenomitebusterlv2hit"
+    },
+    {
+      "action": "sound",
+      "options": [ "/sfx/xenomiteweapons/xenomitebuster/busterhitobject.ogg" ]
+    }
+  ],
+
+  "timeToLive": 5
+}

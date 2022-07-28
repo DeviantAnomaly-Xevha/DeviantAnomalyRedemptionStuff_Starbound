@@ -1,0 +1,45 @@
+{
+  "projectileName" : "mor_nuclearshockwavetrail",
+  "image" : "/projectiles/invisibleprojectile/invisibleprojectile.png",
+  "frameNumber" : 1,
+  "timeToLive" : 10,
+  "speed" : 0,
+  "animationLoops" : false,
+  "flippable" : true,
+  "physics" : "illusion",
+  "onlyHitTerrain" : true,
+  "bounces" : -1,
+  
+  "periodicActions" : [
+    {
+      "time" : 0.01,
+      "action" : "loop",
+      "count" : 3,
+      "body" : [
+        {
+          "action" : "particle",
+          "rotate" : true,
+          "specification" : {
+            "type" : "animated",
+            "animation" : "/animations/mediumflamefire/mediumflamefire.animation",
+            "position" : [25, 0],
+            "initialVelocity" : [150, 0.0],
+            "fade" : 0.3,
+            "destructionAction" : "shrink",
+            "destructionTime" : 0.3,
+            "size" : 4.0,
+            "timeToLive" : 0.6,
+            "light" : [218, 83, 2],
+            "fullbright" : true,
+            "layer" : "middle",
+            "collidesForeground" : false,
+            "variance" : {
+              "position" : [25, 63],
+              "initialVelocity" : [50, 0]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
