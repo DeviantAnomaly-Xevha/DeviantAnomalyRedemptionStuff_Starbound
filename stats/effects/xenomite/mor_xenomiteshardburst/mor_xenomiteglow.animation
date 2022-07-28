@@ -1,0 +1,10 @@
+{
+  "lights": {
+    "mor_xenomiteglow": {
+      "active": true,
+      "position": [ 0, 0 ],
+      "color": [ 0, 102, 25.5 ],
+      "pointLight": true
+    }
+  }
+}

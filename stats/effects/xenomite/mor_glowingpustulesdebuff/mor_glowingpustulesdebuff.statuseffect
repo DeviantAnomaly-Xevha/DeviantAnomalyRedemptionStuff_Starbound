@@ -1,0 +1,18 @@
+{
+  "name": "mor_glowingpustulesdebuff",
+  "blockingStat": "mor_xenomiteStatusImmunity",
+
+  "effectConfig": {
+    "infectionTime": 1
+  },
+  "defaultDuration": 0.15,
+
+  "scripts": [
+    "mor_glowingpustulesdebuff.lua"
+  ],
+
+  "animationConfig": "mor_glowingpustulesdebuff.animation",
+
+  "label": "Glowing Pustules",
+  "icon": "/interface/statuses/mor_glowingpustulesdebuff.png"
+}

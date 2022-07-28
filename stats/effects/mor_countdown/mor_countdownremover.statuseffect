@@ -1,0 +1,10 @@
+{
+  "name" : "mor_countdownremover",
+
+  "effectConfig" : {},
+  "defaultDuration" : 1.0,
+
+  "scripts" : [
+    "mor_countdownremover.lua"
+  ]
+}

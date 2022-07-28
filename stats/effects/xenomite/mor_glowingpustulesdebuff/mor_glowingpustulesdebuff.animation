@@ -1,0 +1,10 @@
+{
+  "lights": {
+    "mor_glowingpustulesdebuff": {
+      "active": true,
+      "position": [ 0, 0 ],
+      "color": [ 32, 158, 88 ],
+      "pointLight": true
+    }
+  }
+}

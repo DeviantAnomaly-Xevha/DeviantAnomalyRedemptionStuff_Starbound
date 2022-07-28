@@ -1,0 +1,9 @@
+{
+  "name": "mor_anticrystallizerband",
+  "effectConfig": {},
+  "defaultDuration": 60,
+
+  "scripts": [
+    "mor_xenomiteblock.lua"
+  ]
+}

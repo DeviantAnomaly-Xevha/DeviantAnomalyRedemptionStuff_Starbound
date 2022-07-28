@@ -1,0 +1,9 @@
+{
+  "name": "mor_infectedwaterblockaugment",
+  "effectConfig": {},
+  "defaultDuration": 60,
+
+  "scripts": [
+    "mor_infectedwaterblock.lua"
+  ]
+}

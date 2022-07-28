@@ -1,0 +1,9 @@
+{//Replaced with "mor_anticrystallizerband", but kept in to avoid errors for people who have old items... if that can happen.
+  "name": "mor_xenomiteblockaugment",
+  "effectConfig": {},
+  "defaultDuration": 60,
+
+  "scripts": [
+    "mor_xenomiteblock.lua"
+  ]
+}

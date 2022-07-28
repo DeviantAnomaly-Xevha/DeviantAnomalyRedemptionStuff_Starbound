@@ -1,0 +1,79 @@
+{
+  "globalTagDefaults" : {
+    "value" : "0"
+  },
+  "animatedParts" : {
+    "stateTypes" : {
+      "digit" : {
+        "default" : "idle",
+        "states" : {
+          "idle" : {
+            "frames" : 1,
+            "cycle" : 1.0,
+            "mode" : "loop"
+          },
+          "flash" : {
+            "frames" : 2,
+            "cycle" : 1.0,
+            "mode" : "loop"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "number" : {
+        "centered" : true,
+        "offset" : [0, 0]
+      },
+      "digit1" : {
+        "properties" : {
+          "anchorPart" : "number",
+          "zLevel" : 5,
+          "centered" : true,
+          "fullbright" : true,
+          "offset" : [0.5, 4]
+        },
+
+        "partStates" : {
+          "digit" : {
+            "idle" : {
+              "properties" : {
+                "image" : "digit.png:i.<value>.<frame>"
+              }
+            },
+            "flash" : {
+              "properties" : {
+                "image" : "digit.png:f.<value>.<frame>"
+              }
+            }
+          }
+        }
+      },
+      "digit2" : {
+        "properties" : {
+          "anchorPart" : "number",
+          "zLevel" : 5,
+          "centered" : true,
+          "fullbright" : true,
+          "offset" : [-0.5, 4]
+        },
+
+        "partStates" : {
+          "digit" : {
+            "idle" : {
+              "properties" : {
+                "image" : "digit.png:i.<value>.<frame>"
+              }
+            },
+            "flash" : {
+              "properties" : {
+                "image" : "digit.png:f.<value>.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "particleEmitters": {
+    "mor_acidsmoke": {
+      "enabled": true,
+      "emissionRate": 20.0,
+      "particles": [
+        {
+          "particle": "mor_infectedwatercorrosiondust"
+        }
+      ]
+    }
+  },
+  "sounds": {
+    "burn": [ "/sfx/projectiles/mor_infectedwatercorrode.ogg" ]
+  }
+}

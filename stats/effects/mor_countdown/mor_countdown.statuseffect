@@ -1,0 +1,16 @@
+{
+  "name" : "mor_countdown",
+  "blockingStat" : "mor_countdownImmunity",
+
+  "effectConfig" : {
+    "digits" : 2,
+    "flashThreshold" : 10.0
+  },
+  "defaultDuration" : 30.0,
+
+  "scripts" : [
+    "mor_countdown.lua"
+  ],
+  
+  "animationConfig" : "mor_countdown.animation"
+}

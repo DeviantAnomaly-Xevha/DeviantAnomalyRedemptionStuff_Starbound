@@ -1,0 +1,249 @@
+{
+  "kind": "xenomiteanomaly",
+  "charCreationTooltip": {
+    "title": "xenomiteanomaly",
+    "subTitle": "O2",
+    "description": "Aberrations of unknown origin, all that is known about them is that they started to appear some time after the discovery of an infectious crystal material known as Xenomite. These crystals appear to be growing all over their bodies, yet seem to cause them no ill effects..."
+  },
+  "nameGen": [ "/species/xenomiteanomalymalenamegen.config:names", "/species/xenomiteanomalyfemalenamegen.config:names" ],
+  "ouchNoises": [ "/sfx/humanoid/xenomiteanomalyhurt_male1.ogg", "/sfx/humanoid/xenomiteanomalyhurt_female1.ogg" ],
+  "charGenTextLabels": [ "Skin colour", "Hair style", "Shirt", "Legwear", "Underwear", "Hair colour", "Shirt colour", "Legwear colour", "XENOMITE ANOMALY", "Personality" ],
+  "statusEffects": [ "mor_xenomiteanomalytraits", "mor_xenomiteshardburst" ],
+  "skull": "/humanoid/xenomiteanomaly/dead.png",
+  "effectDirectives": "?replace=FEFFFFFF=b7d754ff;9bd4ffFF=36c13bff;31a6ffFF=209e58ff",
+  "defaultBlueprints": {
+    "tier1": [
+
+      // InventorsTable2
+      { "item": "spheretech_xa" },
+
+      // Empty Hands
+      { "item": "flagxenomiteanomaly" },
+      { "item": "mor_xenomiteseed_xa" },
+
+      // Anvil
+      { "item": "xenomitebuster0" },
+      { "item": "xenomiteanomalytier1head" },
+      { "item": "xenomiteanomalytier1chest" },
+      { "item": "xenomiteanomalytier1pants" },
+      { "item": "xenomiteanomalytier2head" },
+      { "item": "xenomiteanomalytier2chest" },
+      { "item": "xenomiteanomalytier2pants" },
+      { "item": "ironshortsword" },
+      { "item": "ironbroadsword" },
+      { "item": "tungstenaxe" },
+      { "item": "tungstenhammer" },
+      // Anvil2
+      { "item": "xenomiteanomalytier3head" },
+      { "item": "xenomiteanomalytier3chest" },
+      { "item": "xenomiteanomalytier3pants" },
+      { "item": "xenomiteanomalytier4head" },
+      { "item": "xenomiteanomalytier4chest" },
+      { "item": "xenomiteanomalytier4pants" },
+      { "item": "titaniumdagger" },
+      { "item": "titaniumspear" },
+      { "item": "durasteelbroadsword" },
+      { "item": "durasteelshortsword" },
+      // Anvil3
+      { "item": "mor_xenomiteitem" },
+      { "item": "xenomiteanomalytier5ahead" },
+      { "item": "xenomiteanomalytier5achest" },
+      { "item": "xenomiteanomalytier5apants" },
+      { "item": "xenomiteanomalytier6ahead" },
+      { "item": "xenomiteanomalytier6achest" },
+      { "item": "xenomiteanomalytier6apants" },
+      { "item": "xenomiteanomalytier5mhead" },
+      { "item": "xenomiteanomalytier5mchest" },
+      { "item": "xenomiteanomalytier5mpants" },
+      { "item": "xenomiteanomalytier6mhead" },
+      { "item": "xenomiteanomalytier6mchest" },
+      { "item": "xenomiteanomalytier6mpants" },
+      { "item": "xenomiteanomalytier5shead" },
+      { "item": "xenomiteanomalytier5schest" },
+      { "item": "xenomiteanomalytier5spants" },
+      { "item": "xenomiteanomalytier6shead" },
+      { "item": "xenomiteanomalytier6schest" },
+      { "item": "xenomiteanomalytier6spants" },
+      { "item": "aegisaltpistol" },
+      { "item": "aegisaltbow" },
+      { "item": "feroziumwand" },
+      { "item": "feroziumstaff" },
+      { "item": "violiumshortsword" },
+      { "item": "violiumbroadsword" },
+      // Furniture Table 2
+      { "item": "xenomiteanomalystoragelocker" },
+      { "item": "xenomiteanomalyshipdoor" },
+      { "item": "xenomiteanomalyshiphatch" },
+      // Agricultural Station
+      { "item": "mor_liquidinfectedwater" },
+      // Spinning Wheel
+      { "item": "xenomiteanomalyoutfit0back" },
+      { "item": "xenomiteanomalyoutfit0chest" },
+      { "item": "xenomiteanomalyoutfit0head" },
+      { "item": "xenomiteanomalyoutfit0legs" },
+      { "item": "xenomiteanomalyoutfit1chest" },
+      { "item": "xenomiteanomalyoutfit1legs" },
+      { "item": "xenomiteanomalyoutfit2chest" },
+      { "item": "xenomiteanomalyoutfit2legs" },
+      { "item": "xenomiteanomalyoutfit3chest" },
+      { "item": "xenomiteanomalyoutfit3legs" },
+      { "item": "xenomiteanomalyoutfit4chest" },
+      { "item": "xenomiteanomalyoutfit4legs" },
+      // Special
+      { "item": "xenomiteanomalymerchant" }
+
+    ]
+  },
+
+  "altOptionAsUndyColor": true,
+  "headOptionAsHairColor": true,
+  "altOptionAsHairColor": true,
+  "genders": [
+    {
+      "name": "male",
+      "image": "/interface/title/xenomiteanomalymaleico.png",
+      "characterImage": "/interface/title/xenomiteanomalymale.png",
+      "hair": [ "deviantanomalyhair", "male1", "male2", "male3", "male4", "male5", "male6", "male7", "male8", "male9", "male10", "male11", "male12", "male13", "male14", "male15", "male16", "male17", "male18", "male19", "male21", "male22", "male23", "male24", "male25", "male26", "male27", "male28", "male29", "male30", "male31", "male32", "male33", "male34", "male35", "male36", "male37", "male38", "male39", "male40", "male41", "male42", "male43", "male44", "male45", "male46", "male47", "male48", "male49", "male50", "male51", "male52", "male53", "male54", "male55", "male56", "male57", "male58", "male59", "male60", "male61", "male62", "male63", "male64" ],
+      "shirt": [ "xenomiteanomalyoutfit0chest", "xenomiteanomalyoutfit1chest", "xenomiteanomalyoutfit2chest", "xenomiteanomalyoutfit3chest", "xenomiteanomalyoutfit4chest" ],
+      "pants": [ "xenomiteanomalyoutfit0legs", "xenomiteanomalyoutfit1legs", "xenomiteanomalyoutfit2legs", "xenomiteanomalyoutfit3legs", "xenomiteanomalyoutfit4legs" ],
+      "facialHairGroup": "",
+      "facialHair": [],
+      "facialMaskGroup": "",
+      "facialMask": []
+    },
+    {
+      "name": "female",
+      "image": "/interface/title/xenomiteanomalyfemico.png",
+      "characterImage": "/interface/title/xenomiteanomalyfemale.png",
+      "hair": [ "deviantanomalyhair", "fem1", "fem2", "fem3", "fem4", "fem5", "fem6", "fem7", "fem8", "fem9", "fem10", "fem11", "fem12", "fem13", "fem14", "fem15", "fem16", "fem17", "fem18", "fem19", "fem20", "fem21", "fem22", "fem23", "fem24", "fem25", "fem26", "fem27", "fem28", "fem29", "fem30", "fem31", "fem32", "fem33", "fem34", "fem35", "fem36", "fem37", "fem38", "fem39", "fem40", "fem41", "fem42", "fem43", "fem44", "fem45", "fem46", "fem47", "fem48", "fem49", "fem50", "fem51", "fem52", "fem53", "fem54", "fem55", "fem56", "fem57", "fem58", "fem59", "fem60", "fem61", "fem62", "fem63", "fem64" ],
+      "shirt": [ "xenomiteanomalyoutfit0chest", "xenomiteanomalyoutfit1chest", "xenomiteanomalyoutfit2chest", "xenomiteanomalyoutfit3chest", "xenomiteanomalyoutfit4chest" ],
+      "pants": [ "xenomiteanomalyoutfit0legs", "xenomiteanomalyoutfit1legs", "xenomiteanomalyoutfit2legs", "xenomiteanomalyoutfit3legs", "xenomiteanomalyoutfit4legs" ],
+      "facialHairGroup": "",
+      "facialHair": [],
+      "facialMaskGroup": "",
+      "facialMask": []
+    }
+  ],
+  "bodyColor": [
+    {
+      "ffe2c5": "ab8c77",
+      "ffc181": "86644a",
+      "d39c6c": "684431",
+      "c7815b": "40271d"
+    },
+    {
+      "ffe2c5": "c5ad98",
+      "ffc181": "a47a59",
+      "d39c6c": "865d40",
+      "c7815b": "66412e"
+    },
+    {
+      "ffe2c5": "e1b98d",
+      "ffc181": "c88959",
+      "d39c6c": "9e6a4d",
+      "c7815b": "784930"
+    },
+    {
+      "ffe2c5": "c9b181",
+      "ffc181": "ac8348",
+      "d39c6c": "87633f",
+      "c7815b": "694c31"
+    },
+    {
+      "ffe2c5": "e8cebc",
+      "ffc181": "cfa97d",
+      "d39c6c": "ae774b",
+      "c7815b": "804e34"
+    },
+    {
+      "ffe2c5": "f4e0ba",
+      "ffc181": "e9b768",
+      "d39c6c": "c18f54",
+      "c7815b": "a2683d"
+    },
+    {
+      "ffe2c5": "ffe9d3",
+      "ffc181": "ffc181",
+      "d39c6c": "d39c6c",
+      "c7815b": "b97551"
+    },
+    {
+      "ffe2c5": "fbe1d4",
+      "ffc181": "f6baa2",
+      "d39c6c": "cc9582",
+      "c7815b": "ac7261"
+    },
+    {
+      "ffe2c5": "fff7ec",
+      "ffc181": "f9d3a9",
+      "d39c6c": "d3a57c",
+      "c7815b": "b37c5d"
+    },
+    {
+      "ffe2c5": "fff6f6",
+      "ffc181": "f7d5d3",
+      "d39c6c": "d1aaa1",
+      "c7815b": "a27f70"
+    }
+  ],
+  "undyColor": [
+    {
+      "dc1f00": "4d76ad",
+      "be1b00": "395187",
+      "951500": "20325b"
+    },
+    {
+      "dc1f00": "7c41b8",
+      "be1b00": "6c2f90",
+      "951500": "471962"
+    },
+    {
+      "dc1f00": "c63442",
+      "be1b00": "9b2724",
+      "951500": "6a1210"
+    },
+    {
+      "dc1f00": "eaa245",
+      "be1b00": "b47020",
+      "951500": "834a0c"
+    },
+    {
+      "dc1f00": "e3e13a",
+      "be1b00": "a8a614",
+      "951500": "848008"
+    },
+    {
+      "dc1f00": "6ab841",
+      "be1b00": "45902f",
+      "951500": "296219"
+    },
+    {
+      "dc1f00": "535353",
+      "be1b00": "363636",
+      "951500": "111111"
+    },
+    {
+      "dc1f00": "e6e6e6",
+      "be1b00": "979797",
+      "951500": "6f6f6f"
+    },
+    {
+      "dc1f00": "9e9e9e",
+      "be1b00": "6e6e6e",
+      "951500": "434343"
+    },
+    {
+      "dc1f00": "f794f8",
+      "be1b00": "d355c1",
+      "951500": "b72c95"
+    }
+  ],
+  "hairColor": [
+    //XENOMITE
+    {
+      "d9c189": "2cb14b",
+      "a38d59": "188862",
+      "735e3a": "075458"
+    }
+  ]
+}

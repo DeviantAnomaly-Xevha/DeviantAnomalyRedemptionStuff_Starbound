@@ -1,0 +1,12 @@
+{
+  "name" : "mor_nuclearflash",
+
+  "effectConfig" : {},
+  "defaultDuration" : 1.0,
+
+  "scripts" : [
+    "mor_nuclearflash.lua"
+  ],
+  
+  "animationConfig" : "mor_nuclearflash.animation"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "mor_xenomiteblock",
+  "effectConfig": {},
+  "defaultDuration": 60,
+
+  "scripts": [
+    "mor_xenomiteblock.lua"
+  ],
+
+  "label": "Xenomite Antibodies",
+  "icon": "/interface/statuses/mor_xenomiteblock.png"
+}

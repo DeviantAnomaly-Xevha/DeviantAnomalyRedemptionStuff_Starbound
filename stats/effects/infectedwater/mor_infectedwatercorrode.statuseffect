@@ -1,0 +1,18 @@
+{
+  "name": "mor_infectedwatercorrode",
+  "blockingStat": "mor_infectedwaterStatusImmunity",
+
+  "effectConfig": {
+    "burnTime": 1
+  },
+  "defaultDuration": 0.15,
+
+  "scripts": [
+    "mor_infectedwatercorrode.lua"
+  ],
+
+  "animationConfig": "mor_infectedwatercorrode.animation",
+
+  "label": "Corrosion",
+  "icon": "/interface/statuses/mor_acidburndebuff.png"
+}

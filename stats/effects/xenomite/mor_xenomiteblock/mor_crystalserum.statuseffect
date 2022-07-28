@@ -1,0 +1,12 @@
+{
+  "name": "mor_crystalserum",
+  "effectConfig": {},
+  "defaultDuration": 300,
+
+  "scripts": [
+    "mor_xenomiteblock.lua"
+  ],
+
+  "label": "Anti-Crystallizer Serum",
+  "icon": "/interface/statuses/mor_crystalserum.png"
+}

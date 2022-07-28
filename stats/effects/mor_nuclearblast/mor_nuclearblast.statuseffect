@@ -1,0 +1,14 @@
+{
+  "name" : "mor_nuclearblast",
+
+  "effectConfig" : {
+    "roarFadeOutTime" : 3.0
+  },
+  "defaultDuration" : 10.0,
+
+  "scripts" : [
+    "mor_nuclearblast.lua"
+  ],
+  
+  "animationConfig" : "mor_nuclearblast.animation"
+}

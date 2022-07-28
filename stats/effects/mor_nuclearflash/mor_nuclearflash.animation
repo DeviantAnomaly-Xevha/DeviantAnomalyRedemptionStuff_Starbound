@@ -1,0 +1,19 @@
+{
+  "particleEmitters" : {
+    "flash" : {
+      "particles" : [
+        {"particle" : {
+          "type" : "textured",
+          "image" : "/particles/images/mor_whiteflash.png",
+          "position" : [0, 0],
+          "fade" : 1,
+          "destructionAction" : "fade",
+          "destructionTime" : 5.0,
+          "timeToLive" : 0.0,
+          "fullbright" : true,
+          "layer" : "front"
+        }}
+      ]
+    }
+  }
+}

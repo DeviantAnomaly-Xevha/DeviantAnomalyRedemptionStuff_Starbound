@@ -1,0 +1,23 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel"],
+      "crewSize" : 2
+    }
+  },
+
+  "backgroundOverlays" : [
+    {
+      "image" : "xenomiteanomalyT2.png",
+      "position" : [8, 14],
+      "fullbright" : true
+    },
+    {
+      "image" : "xenomiteanomalyT2lit.png",
+      "position" : [8, 14]
+    }
+  ],
+
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "xenomiteanomalyT2blocks.png"
+}

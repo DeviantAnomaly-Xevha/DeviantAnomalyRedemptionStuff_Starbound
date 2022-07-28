@@ -1,0 +1,16 @@
+{
+  "particleEmitters": {
+    "mor_greenrashes": {
+      "enabled": true,
+      "emissionRate": 5.0,
+      "particles": [
+        {
+          "particle": "mor_greenrashes1"
+        },
+        {
+          "particle": "mor_greenrashes2"
+        }
+      ]
+    }
+  }
+}

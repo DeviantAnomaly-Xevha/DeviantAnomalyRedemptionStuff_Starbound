@@ -1,0 +1,23 @@
+{
+  "name": "mor_greenrashesdebuff2",
+  "blockingStat": "mor_xenomiteStatusImmunity",
+
+  "effectConfig": {
+    "stats": [
+      {
+        "stat": "protection",
+        "amount": 7
+      }
+    ]
+  },
+  "defaultDuration": 0.15,
+
+  "scripts": [
+    "mor_greenrashesdebuff2.lua"
+  ],
+
+  "animationConfig": "mor_greenrashesdebuff.animation",
+
+  "label": "\n Green Rashes\n... Really itchy\n ",
+  "icon": "/interface/statuses/mor_greenrashesdebuff.png"
+}

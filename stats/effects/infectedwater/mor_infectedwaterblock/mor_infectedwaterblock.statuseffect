@@ -1,0 +1,12 @@
+{
+  "name": "mor_infectedwaterblock",
+  "effectConfig": {},
+  "defaultDuration": 60,
+
+  "scripts": [
+    "mor_infectedwaterblock.lua"
+  ],
+
+  "label": "Infected Water Resistance",
+  "icon": "/interface/statuses/mor_infectedwaterblock.png"
+}

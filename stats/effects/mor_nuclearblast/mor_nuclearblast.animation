@@ -1,0 +1,6 @@
+{
+  "sounds" : {
+    "boom" : ["/sfx/unsorted/mor_nuclear_explosion.ogg"],
+    "roar" : ["/sfx/unsorted/mor_nuclearroar.ogg"]
+  }
+}
