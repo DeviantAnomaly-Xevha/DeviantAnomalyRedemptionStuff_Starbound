@@ -106,8 +106,11 @@
   "flashStatusEffect": "mor_nuclearflash",
 
   "biomeType": "mor_wasteland",
-  "blockSelector": null,
+  "blockSelector": "largeClumps",
   "conversionWidth": 400,
+  "conversionEffectMargin" : 150,
+  "conversionHeight" : 300,
+  "conversionOffset" : [-50, 0],
 
   "detonationTime": 30,
   "countdownStatusEffect": "mor_countdown",
@@ -120,5 +123,12 @@
     "message": "Do you want to detonate the nuke?\n\n^red;By pressing \"Yes\", you agree to have your warranty of life voided if you don't get the heck out of there in the next 30 seconds.^reset;",
     "okCaption": "Yes",
     "cancelCaption": "No"
-  }
+  },
+  
+  "biomeStagehandType" : "mor_wastelandbiome",
+  "biomeStagehandParameters" : {},
+  "paddingStagehandType" : "mor_wastelandmusicstopper",
+  "paddingStagehandParameters" : {"fadeOutTime" : 2.0},
+  "controllerStagehandType" : "mor_wastelandcontroller",
+  "controllerStagehandParameters" : {}
 }

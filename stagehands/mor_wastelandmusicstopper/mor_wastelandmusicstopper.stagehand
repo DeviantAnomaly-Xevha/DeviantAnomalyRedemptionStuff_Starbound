@@ -1,0 +1,12 @@
+{
+  // This stagehand stops music.
+  "type" : "mor_wastelandmusicstopper",
+  "keepAlive" : true,
+
+  "scripts" : ["/stagehands/mor_wastelandmusicstopper/mor_wastelandmusicstopper.lua"],
+  "scriptDelta" : 10,
+
+  "broadcastArea" : [-5, -5, 5, 5],
+
+  "fadeOutTime" : 2.0
+}

@@ -1,0 +1,10 @@
+{
+  // This stagehand kills the stagehands it is tied to when it dies. Used specifically for wasteland biomes.
+  "type" : "mor_wastelandcontroller",
+  "keepAlive" : true,
+
+  "scripts" : ["/stagehands/mor_wastelandcontroller/mor_wastelandcontroller.lua"],
+  "scriptDelta" : 10,
+
+  "broadcastArea" : [-5, -5, 5, 5]
+}
