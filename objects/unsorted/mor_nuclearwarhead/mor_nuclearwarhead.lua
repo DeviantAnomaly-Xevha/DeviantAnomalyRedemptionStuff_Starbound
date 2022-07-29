@@ -14,7 +14,7 @@ function init()
   self.music = config.getParameter("music")  -- The path to the music track you want to play. Example: ["/music/arctic-battle1-loop.ogg"]
   self.musicFadeInTime = config.getParameter("musicFadeInTime")  -- Amount of time, in seconds, it takes for the music to fade in.
   self.musicFadeOutTime = config.getParameter("musicFadeOutTime")  -- Amount of time, in seconds, it takes for the music to fade out.
-
+  
   self.warheadProjectile = config.getParameter("warheadProjectile")  -- Projectile type on initial explosion
   self.warheadProjectileParameters = config.getParameter("warheadProjectileParameters", {})  -- Whatever parameters you want!
   self.warheadSpawnOffset = config.getParameter("warheadSpawnOffset")  -- x and y coordinates (in blocks) relative to self.position
@@ -22,16 +22,27 @@ function init()
   self.biomeType = config.getParameter("biomeType")  -- The name of the biome to convert
   self.blockSelector = config.getParameter("blockSelector", "largeClumps")  -- How the game chooses where to place sub blocks
   self.conversionWidth = config.getParameter("conversionWidth")  -- How wide, in blocks, the converted region will be
+  self.conversionHeight = config.getParameter("conversionHeight")  -- How high, in blocks, the converted region will be. Only used for stagehands.
+  self.conversionEffectMargin = config.getParameter("conversionEffectMargin")  -- Music and other things will trigger in an area self.conversionWidth - 2 * self.conversionEffectMargin wide
+  self.conversionPosition = vec2.add(self.position, config.getParameter("conversionOffset", {0, 0}))
   
   self.flashRange = config.getParameter("flashRange")
   self.flashStatusEffect = config.getParameter("flashStatusEffect")  -- Flashbang status effect
 
   self.detonationTime = config.getParameter("detonationTime")  -- Number of seconds the player has to get the heck out of there
-  self.countdownStatusEffect = config.getParameter("countdownStatusEffect")
-  self.countdownEndStatusEffect = config.getParameter("countdownEndStatusEffect")
-  self.promptConfig = config.getParameter("promptConfig")
-  self.loadArea = config.getParameter("loadArea")
+  self.countdownStatusEffect = config.getParameter("countdownStatusEffect")  -- Status effect to display the countdown
+  self.countdownEndStatusEffect = config.getParameter("countdownEndStatusEffect")  -- Status effect to hide the countdown
+  self.promptConfig = config.getParameter("promptConfig")  -- Configuration for prompt to confirm if the player wants to detonate the nuke
+  self.loadArea = config.getParameter("loadArea")  -- Chunks intersecting this area relative to the warhead remain loaded while the warhead is active.
   self.loadRegion = rect.translate(self.loadArea, self.position)
+  
+  self.biomeStagehandType = config.getParameter("biomeStagehandType")
+  self.biomeStagehandParameters = config.getParameter("biomeStagehandParameters", {})
+  self.paddingStagehandType = config.getParameter("paddingStagehandType")
+  self.paddingStagehandParameters = config.getParameter("paddingStagehandParameters", {})
+  self.controllerStagehandType = config.getParameter("controllerStagehandType")
+  self.controllerStagehandParameters = config.getParameter("controllerStagehandParameters", {})
+  self.maxStagehandSize = config.getParameter("maxStagehandSize", 100)  -- Maximum height and length of a stagehand
 
   -- Define variables
   object.setInteractive(true)
@@ -105,7 +116,7 @@ function states.countdown()
   local dt = script.updateDt()
   
   -- Prepare for asynchronous biome generation
-  world.pregenerateAddBiome(self.position, self.conversionWidth)
+  world.pregenerateAddBiome(self.conversionPosition, self.conversionWidth)
 
   while storage.timer > 0 or not self.pregenerationFinished do
     world.loadRegion(self.loadRegion)  -- Keep the area loaded
@@ -116,7 +127,7 @@ function states.countdown()
 
     -- I have no idea what exactly this does, but I'm keeping it in case it fixes a problem I am unaware of.
     if not self.pregenerationFinished then
-      self.pregenerationFinished = world.pregenerateAddBiome(self.position, self.conversionWidth)
+      self.pregenerationFinished = world.pregenerateAddBiome(self.conversionPosition, self.conversionWidth)
       if self.pregenerationFinished then sb.logInfo("pregeneration to add biome finished at %s seconds", storage.timer) end
     end
 
@@ -146,7 +157,8 @@ function states.detonate()
   end
   
   -- Convert biome
-  world.addBiomeRegion(self.position, self.biomeType, self.blockSelector, self.conversionWidth)
+  createBiomeStagehands()
+  world.addBiomeRegion(self.conversionPosition, self.biomeType, self.blockSelector, self.conversionWidth)
   
   object.smash(true)
   
@@ -186,7 +198,81 @@ function stopMusic()
   end
 end
 
--- TODO: Make this callable repeatedly so that players who beam down while a warhead is active can see the countdown too.
+function createBiomeStagehands()
+  local bundledStagehands = {}
+  local uuid = sb.makeUuid()
+  local stagehandId = 0
+
+  local spawnStagehand = function(offset, stagehandType, broadcastArea, stagehandParams)
+    local params = copy(stagehandParams)
+    local uid = uuid .. "-" .. stagehandId
+    params.broadcastArea = broadcastArea
+    params.uniqueId = params.uniqueId or uid
+    stagehandId = stagehandId + 1
+    local stagehand = world.spawnStagehand(vec2.add(self.position, offset), stagehandType, params)
+    if stagehand then
+      return uid
+    end
+  end
+
+  local boundaries = {-(self.conversionWidth - self.conversionEffectMargin), -self.conversionHeight / 2, self.conversionWidth - self.conversionEffectMargin, self.conversionHeight / 2}
+
+  local x = boundaries[1]
+  while x < boundaries[3] do
+    local y = boundaries[2]
+    while y < boundaries[4] do
+      local xLength = math.min(boundaries[3] - x, self.maxStagehandSize)
+      local yLength = math.min(boundaries[4] - y, self.maxStagehandSize)
+
+      -- Left padding
+      if x == boundaries[1] then
+        local stagehand = spawnStagehand({x - self.conversionEffectMargin, y}, self.paddingStagehandType, {0, 0, self.conversionEffectMargin, yLength}, self.paddingStagehandParameters)
+        if stagehand then
+          table.insert(bundledStagehands, stagehand)
+        end
+      end
+      
+      -- Right padding
+      if boundaries[3] - x <= self.maxStagehandSize then
+        local stagehand = spawnStagehand({x + xLength, y}, self.paddingStagehandType, {0, 0, self.conversionEffectMargin, yLength}, self.paddingStagehandParameters)
+        if stagehand then
+          table.insert(bundledStagehands, stagehand)
+        end
+      end
+
+      -- Top padding
+      if y == boundaries[2] then
+        local stagehand = spawnStagehand({x, y - self.conversionEffectMargin}, self.paddingStagehandType, {0, 0, xLength, self.conversionEffectMargin}, self.paddingStagehandParameters)
+        if stagehand then
+          table.insert(bundledStagehands, stagehand)
+        end
+      end
+      
+      -- Bottom padding
+      if boundaries[4] - y <= self.maxStagehandSize then
+        local stagehand = spawnStagehand({x, y + yLength}, self.paddingStagehandType, {0, 0, xLength, self.conversionEffectMargin}, self.paddingStagehandParameters)
+        if stagehand then
+          table.insert(bundledStagehands, stagehand)
+        end
+      end
+      
+      -- Base stagehands
+      local stagehand = spawnStagehand({x, y}, self.biomeStagehandType, {0, 0, xLength, yLength}, self.biomeStagehandParameters)
+      if stagehand then
+        table.insert(bundledStagehands, stagehand)
+      end
+
+      y = y + self.maxStagehandSize
+    end
+    x = x + self.maxStagehandSize
+  end
+
+  local controllerParams = copy(self.controllerStagehandParameters)
+  controllerParams.groupedStagehands = bundledStagehands
+  controllerParams.uniqueId = uuid
+  spawnStagehand({0, 0}, self.controllerStagehandType, {-1, -1, 1, 1}, controllerParams)
+end
+
 function showCountdown()
   -- Clean up players who are no longer on the planet.
   for playerId, _ in pairs(self.countdownPlayers) do

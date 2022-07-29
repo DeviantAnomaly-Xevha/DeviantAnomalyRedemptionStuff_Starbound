@@ -1,0 +1,16 @@
+{
+  // This stagehand plays music and applies status effects.
+  "type" : "mor_wastelandbiome",
+  "keepAlive" : true,
+
+  "scripts" : ["/stagehands/mor_wastelandbiome/mor_wastelandbiome.lua"],
+  "scriptDelta" : 10,
+
+  "broadcastArea" : [-5, -5, 5, 5],
+
+  "music" : ["/music/mor_Wasteland.ogg"],
+  "environmentStatusEffects" : [{"effect" : "mor_radiation", "duration" : 5.0}],
+
+  "fadeInTime" : 2.0,
+  "fadeOutTime" : 2.0
+}
