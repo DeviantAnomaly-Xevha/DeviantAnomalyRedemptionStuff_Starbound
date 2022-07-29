@@ -9,6 +9,7 @@
   "glitchdescription": "Uncomfortable. It is difficult to keep silt from seeping into my components.",
   "florandescription": "Silt. It's so dussty.",
   "novakiddescription": "Big ol' pile of dusty silt.",
+  "materialId": 444,
 
-  "materialId": 444
+  "learnBlueprintsOnPickup": [ "mor_wastelandbox" ]
 }

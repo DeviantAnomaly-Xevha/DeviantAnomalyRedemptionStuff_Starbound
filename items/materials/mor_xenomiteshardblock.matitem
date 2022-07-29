@@ -9,6 +9,7 @@
   "glitchdescription": "Calm. This crystal block has a soothing appearance.",
   "florandescription": "Ssshiny block made from crysstalss.",
   "novakiddescription": "The crystals in this block are real purdy.",
+  "materialId": 436,
 
-  "materialId": 436
+  "learnBlueprintsOnPickup": [ "mor_wastelandbox" ]
 }

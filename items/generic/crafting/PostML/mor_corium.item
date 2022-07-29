@@ -7,5 +7,7 @@
   "description": "Holding this will cause severe radiation poisoning without proper equipment.",
   "shortdescription": "Corium",
   "itemTags": [ "reagent" ],
-  "radioMessagesOnPickup": [ "pickupore" ]
+  "radioMessagesOnPickup": [ "pickupore" ],
+
+  "learnBlueprintsOnPickup": [ "mor_wastelandbox" ]
 }

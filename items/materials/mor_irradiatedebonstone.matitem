@@ -9,5 +9,7 @@
   "glitchdescription": "Facinated. These cobblestones are naturally smooth.",
   "florandescription": "Ssmooth cobblessstone rockss.",
   "novakiddescription": "Ain't uncommon to run across cobblestone rocks like this.",
-  "materialId": 441
+  "materialId": 441,
+
+  "learnBlueprintsOnPickup": [ "mor_wastelandbox" ]
 }

@@ -9,5 +9,7 @@
   "glitchdescription": "Indifferent. This is basic soil.",
   "florandescription": "Filthy dirt!",
   "novakiddescription": "Dirty lookin' dirt.",
-  "materialId": 437
+  "materialId": 437,
+
+  "learnBlueprintsOnPickup": [ "mor_wastelandbox" ]
 }

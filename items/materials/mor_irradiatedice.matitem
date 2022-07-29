@@ -9,6 +9,7 @@
   "glitchdescription": "Observant. It appears this ice is naturally frozen.",
   "florandescription": "Frossty ssolid ice.",
   "novakiddescription": "Buncha ice.",
+  "materialId": 447,
 
-  "materialId": 447
+  "learnBlueprintsOnPickup": [ "mor_wastelandbox" ]
 }

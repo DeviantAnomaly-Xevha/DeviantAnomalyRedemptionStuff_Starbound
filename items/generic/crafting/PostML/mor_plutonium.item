@@ -7,5 +7,7 @@
   "description": "Holding this may cause radiation poisoning without proper equipment.",
   "shortdescription": "Plutonium",
   "itemTags": [ "reagent" ],
-  "radioMessagesOnPickup": [ "pickupore" ]
+  "radioMessagesOnPickup": [ "pickupore" ],
+
+  "learnBlueprintsOnPickup": [ "mor_wastelandbox" ]
 }

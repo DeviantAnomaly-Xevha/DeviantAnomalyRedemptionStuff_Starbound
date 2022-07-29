@@ -9,6 +9,7 @@
   "glitchdescription": "Disgusted. This mud is thick and sticky.",
   "florandescription": "Floran likess muddy messsss.",
   "novakiddescription": "Looks t'me like a buncha mud.",
+  "materialId": 439,
 
-  "materialId": 439
+  "learnBlueprintsOnPickup": [ "mor_wastelandbox" ]
 }

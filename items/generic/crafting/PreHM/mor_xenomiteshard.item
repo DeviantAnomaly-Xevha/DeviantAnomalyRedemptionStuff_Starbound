@@ -8,5 +8,5 @@
   "shortdescription": "Xenomite Shard",
   "itemTags": [ "reagent" ],
   "radioMessagesOnPickup": [ "pickupore" ],
-  "learnBlueprintsOnPickup": [ "mor_xenomiteshard", "mor_xenomiteitem", "mor_xenomiteseed", "mor_xenomiteshardblock", "mor_xenomiteshardburstaugment", "xenomitebuster1", "mor_liquidinfectedwater" ]
+  "learnBlueprintsOnPickup": [ "mor_xenomiteshard", "mor_xenomiteitem", "mor_xenomiteseed", "mor_xenomiteshardblock", "mor_xenomiteshardburstaugment", "xenomitebuster1", "mor_liquidinfectedwater", "mor_wastelandbox" ]
 }

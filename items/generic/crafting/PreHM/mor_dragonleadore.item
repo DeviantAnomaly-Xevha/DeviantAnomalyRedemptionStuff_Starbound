@@ -8,5 +8,5 @@
   "shortdescription": "Dragon-Lead Ore",
   "itemTags": [ "reagent" ],
   "radioMessagesOnPickup": [ "pickupore" ],
-  "learnBlueprintsOnPickup": [ "mor_dragonleadalloy" ]
+  "learnBlueprintsOnPickup": [ "mor_dragonleadalloy", "mor_wastelandbox" ]
 }

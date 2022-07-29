@@ -9,10 +9,7 @@
   "glitchdescription": "Enchanted. This snow looks freshly fallen.",
   "florandescription": "Cold ssnowy sstuff.",
   "novakiddescription": "Buncha fresh snow.",
-
   "materialId": 446,
 
-  "learnBlueprintsOnPickup": [
-    "snowball"
-  ]
+  "learnBlueprintsOnPickup": [ "mor_wastelandbox" ]
 }

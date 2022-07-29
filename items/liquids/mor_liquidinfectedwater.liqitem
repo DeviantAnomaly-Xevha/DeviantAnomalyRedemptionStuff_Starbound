@@ -8,5 +8,5 @@
 
   "liquid": "mor_infectedwater",
 
-  "learnBlueprintsOnPickup": [ "mor_liquidinfectedwater", "mor_infectedwaterprotectionaugment" ]
+  "learnBlueprintsOnPickup": [ "mor_liquidinfectedwater", "mor_wastelandbox" ]
 }

@@ -7,5 +7,5 @@
   "description": "Use an Atomic Furnace to craft Xenium Alloy.",
   "shortdescription": "Raw Xenium",
   "itemTags": [ "reagent" ],
-  "learnBlueprintsOnPickup": [ "mor_xeniumalloy", "mor_hevaugment" ]
+  "learnBlueprintsOnPickup": [ "mor_xeniumalloy", "mor_hevaugment", "mor_wastelandbox" ]
 }

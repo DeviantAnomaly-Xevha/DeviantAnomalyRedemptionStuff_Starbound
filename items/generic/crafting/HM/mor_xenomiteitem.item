@@ -7,5 +7,5 @@
   "description": "'Infects living things.'",
   "shortdescription": "Xenomite",
   "itemTags": [ "reagent" ],
-  "learnBlueprintsOnPickup": [ "mor_xenomiteshard", "mor_xenomiteseed", "spheretech_xa", "mor_xenomiteprotectionaugment" ]
+  "learnBlueprintsOnPickup": [ "mor_xenomiteshard", "mor_xenomiteseed", "spheretech_xa", "mor_wastelandbox" ]
 }

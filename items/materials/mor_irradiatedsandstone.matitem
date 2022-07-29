@@ -9,8 +9,7 @@
   "glitchdescription": "Observant. This sandstone is made from fine particles of rock.",
   "florandescription": "Ssandy ssandstone rockss.",
   "novakiddescription": "Some sandy lookin' rocks.",
-  "learnBlueprintsOnPickup": [
-    "sandstoneblock"
-  ],
-  "materialId": 445
+  "materialId": 445,
+
+  "learnBlueprintsOnPickup": [ "mor_wastelandbox" ]
 }

@@ -7,5 +7,7 @@
   "description": "",
   "shortdescription": "Vessel Fragment",
   "itemTags": [ "reagent" ],
-  "radioMessagesOnPickup": [ "pickupore" ]
+  "radioMessagesOnPickup": [ "pickupore" ],
+
+  "learnBlueprintsOnPickup": [ "mor_wastelandbox" ]
 }
